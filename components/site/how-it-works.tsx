@@ -6,12 +6,12 @@ const steps = [
   {
     icon: MousePointerClick,
     title: 'Choose your role',
-    description: 'Pick Find Work or Hire Worker to get started in one tap.',
+    description: 'Select whether you want to find work or hire a worker.',
   },
   {
     icon: ListChecks,
     title: 'Select category',
-    description: 'Choose from electrician, plumber, driver and many more.',
+    description: 'Choose a category and subcategory to find the most relevant matches.',
   },
   {
     icon: MapPinned,
