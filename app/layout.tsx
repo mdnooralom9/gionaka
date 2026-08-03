@@ -108,10 +108,7 @@ const organizationSchema = {
   description:
     'India’s Digital Labour Chowk connecting nearby workers with people looking to hire local workers.',
   sameAs: [
-    'https://twitter.com/gionaka',
-    'https://www.facebook.com/gionaka',
-    'https://www.instagram.com/gionaka',
-    'https://www.linkedin.com/company/gionaka',
+    'https://twitter.com/gionakaxnoor',
   ],
   contactPoint: {
     '@type': 'ContactPoint',
