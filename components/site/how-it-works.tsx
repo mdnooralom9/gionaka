@@ -5,7 +5,7 @@ import { Reveal } from './reveal'
 const steps = [
   {
     icon: MousePointerClick,
-    title: 'Choose your goal',
+    title: 'Choose your role',
     description: 'Pick Find Work or Hire Worker to get started in one tap.',
   },
   {
