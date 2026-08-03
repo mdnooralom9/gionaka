@@ -3,6 +3,11 @@ import { SectionHeading } from './section-heading'
 import { Reveal } from './reveal'
 
 const steps = [
+ {
+    icon: MapPinned,
+    title: 'Select location',
+    description: 'Select your location to find nearby opportunities and services.',
+  },
   {
     icon: MousePointerClick,
     title: 'Choose your role',
@@ -14,14 +19,9 @@ const steps = [
     description: 'Choose a category and subcategory to find the most relevant matches.',
   },
   {
-    icon: MapPinned,
-    title: 'View nearby results',
-    description: 'See the closest matches ranked by distance from you.',
-  },
-  {
     icon: PhoneCall,
     title: 'Call or post',
-    description: 'Call directly or post your requirement — no middleman.',
+    description: 'Call directly. If no suitable match is found, post your requirement — no middleman.',
   },
 ]
 
@@ -31,7 +31,7 @@ export function HowItWorks() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="How it works"
-          title="Get started in four simple steps"
+          title="Get started in 4 simple steps"
           description="From opening the app to your first call — Gionaka keeps it effortless."
         />
 
