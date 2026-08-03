@@ -6,7 +6,7 @@ const steps = [
  {
     icon: MapPinned,
     title: 'Select location',
-    description: 'Select your location to find nearby opportunities and services.',
+    description: 'Choose your location to connect locally.',
   },
   {
     icon: MousePointerClick,
