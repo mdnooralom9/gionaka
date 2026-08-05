@@ -29,7 +29,7 @@ const features: Feature[] = [
     icon: Users,
     title: 'Hire Workers',
     description:
-      'Post your requirement and connect with skilled workers around you.',
+      'Post your requirement or browse local professionals to find the right match.',
     accent: 'orange',
   },
   {
