@@ -36,7 +36,7 @@ const features: Feature[] = [
     icon: MapPin,
     title: 'Nearby Search',
     description:
-      'Location-based matching shows you the closest workers and jobs first.',
+      'Location-based matching helps you discover the most relevant people and opportunities nearby.',
     accent: 'cyan',
   },
   {
