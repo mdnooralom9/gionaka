@@ -68,7 +68,7 @@ export function Features() {
       <SectionHeading
         eyebrow="Features"
         title="Everything You Need to Find Work or Hire Locally"
-        description="Gionaka brings the local labour chowk to your phone with powerful, simple tools."
+        description="Gionaka makes it easy to find work, hire local professionals, connect nearby, and communicate directly—all in one simple platform."
       />
 
       <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
