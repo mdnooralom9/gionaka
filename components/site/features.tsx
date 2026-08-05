@@ -55,7 +55,7 @@ const features: Feature[] = [
   },
   {
     icon: Zap,
-    title: 'Fast & Easy',
+    title: 'Fast & Simple',
     description:
       'A simple interface built for everyone — find or hire in minutes.',
     accent: 'orange',
