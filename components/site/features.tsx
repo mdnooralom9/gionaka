@@ -67,7 +67,7 @@ export function Features() {
     <section id="features" className="mx-auto max-w-6xl px-4 py-20 sm:px-6 md:py-28">
       <SectionHeading
         eyebrow="Features"
-        title="Everything you need to work or hire"
+        title="Everything You Need to Find Work or Hire Locally"
         description="Gionaka brings the local labour chowk to your phone with powerful, simple tools."
       />
 
