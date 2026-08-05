@@ -43,7 +43,7 @@ const features: Feature[] = [
     icon: PhoneCall,
     title: 'Direct Calling',
     description:
-      'No middleman. Call and talk directly to workers or employers.',
+      'Call directly or post your requirement if no suitable match is found.',
     accent: 'orange',
   },
   {
