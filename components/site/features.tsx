@@ -50,7 +50,7 @@ const features: Feature[] = [
     icon: ShieldCheck,
     title: 'Trusted Community',
     description:
-      'Verified profiles and community trust keep every connection secure.',
+      'Every account is verified with a phone number before getting started.',
     accent: 'cyan',
   },
   {
