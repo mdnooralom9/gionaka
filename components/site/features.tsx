@@ -27,7 +27,7 @@ const features: Feature[] = [
   },
   {
     icon: Users,
-    title: 'Hire Workers',
+    title: 'Hire Locally',
     description:
       'Post your requirement or browse local professionals to find the right match.',
     accent: 'orange',
