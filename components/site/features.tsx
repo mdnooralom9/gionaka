@@ -22,7 +22,7 @@ const features: Feature[] = [
     icon: Briefcase,
     title: 'Find Work',
     description:
-      'Discover daily wage jobs and gigs near you and start earning faster.',
+      'Discover nearby jobs, daily work, and local opportunities that match your skills.',
     accent: 'cyan',
   },
   {
