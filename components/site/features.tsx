@@ -48,7 +48,7 @@ const features: Feature[] = [
   },
   {
     icon: ShieldCheck,
-    title: 'Safe Community',
+    title: 'Trusted Community',
     description:
       'Verified profiles and community trust keep every connection secure.',
     accent: 'cyan',
