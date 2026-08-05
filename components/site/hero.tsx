@@ -30,9 +30,7 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
-            Gionaka connects nearby workers and employers with a fast,
-            location-based platform that makes hiring simple and finding work
-            easier.
+            connects nearby workers and employers.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:justify-start">
