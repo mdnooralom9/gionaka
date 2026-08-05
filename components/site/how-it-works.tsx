@@ -3,10 +3,10 @@ import { SectionHeading } from './section-heading'
 import { Reveal } from './reveal'
 
 const steps = [
- {
+  {
     icon: MapPinned,
     title: 'Select location',
-    description: 'Choose your location to connect with nearby opportunities.',
+    description: 'Choose your location to connect locally.',
   },
   {
     icon: MousePointerClick,
@@ -16,12 +16,12 @@ const steps = [
   {
     icon: ListChecks,
     title: 'Select category',
-    description: 'Choose a category and subcategory to find the most relevant matches.',
+    description: 'Select the category and subcategory that best matches your requirement.',
   },
   {
     icon: PhoneCall,
     title: 'Call or post',
-    description: 'Call directly. If no suitable match is found, post your requirement — no middleman.',
+    description: 'Call directly, or post your requirement if no suitable match is found. No middleman.',
   },
 ]
 
