@@ -10,52 +10,65 @@ export const faqs = [
   {
     question: 'What is Gionaka?',
     answer:
-      'Gionaka is India’s Digital Labour Chowk — a mobile app that connects nearby workers with people looking to hire local workers, quickly and directly.',
+      'Gionaka is a location-based platform that helps people find work, hire local professionals, and connect directly with nearby people without middlemen.',
   },
   {
     question: 'Who can use Gionaka?',
     answer:
-      'Anyone. Daily wage workers, electricians, plumbers, carpenters, painters, drivers and helpers can find work, while homeowners, contractors and small businesses can hire them.',
+      'Anyone looking to find work or hire local professionals. Gionaka supports skilled workers, service providers, homeowners, contractors, businesses, and anyone looking to connect locally.',
   },
   {
-    question: 'Is Gionaka free?',
+    question: 'Is Gionaka free to use?',
     answer:
-      'Yes, Gionaka is free to download and use for both finding work and hiring workers. There are no middleman charges or commissions.',
+      'Yes. Gionaka is free to download and use for finding work, hiring local professionals, and connecting directly without middlemen or commissions.',
   },
   {
     question: 'How does Gionaka work?',
     answer:
-      'Choose whether you want to find work or hire a worker, select a category, view nearby results ranked by distance, and then call directly or post your requirement.',
+      'Select your role, choose your category and location, browse nearby results, then call directly or post your requirement if you do not find the right match.',
   },
   {
-    question: 'Can I hire workers nearby?',
+    question: 'Can I hire local professionals nearby?',
     answer:
-      'Absolutely. Gionaka uses your location to show the closest available workers first, so you can hire someone right in your area.',
+      'Yes. Gionaka helps you discover nearby local professionals based on your selected location, making it easier to connect with the right people nearby.',
   },
   {
-    question: 'How do workers find jobs?',
+    question: 'How can I find work on Gionaka?',
     answer:
-      'Workers create a profile, select their skills, and see nearby job requirements. They can respond to postings or receive direct calls from employers.',
+      'Create your profile, choose your skills and location, browse nearby opportunities, or receive direct calls from people looking for your services.',
   },
   {
-    question: 'Is my location required?',
+    question: 'Why is location required?',
     answer:
-      'Location powers nearby matching, so enabling it gives the best results. You stay in control of your privacy and can manage permissions any time.',
+      'Your selected location helps Gionaka show more relevant nearby people and improves local matching while keeping you in control of your location permissions.',
   },
   {
-    question: 'How do I contact support?',
+    question: 'Is Gionaka available across India?',
     answer:
-      'You can reach our team any time at support@gionaka.com and we’ll be happy to help you get the most out of Gionaka.',
+      'Gionaka is designed for local connections and is expanding to support more cities and regions across India.',
+  },
+  {
+    question: 'Do I need to pay to use Gionaka?',
+    answer:
+      'No. Gionaka is free to download and use. You can find work, hire local professionals, and connect directly without paying commissions.',
+  },
+  {
+    question: 'How can I contact Gionaka support?',
+    answer:
+      'Need help? Contact our support team at support@gionaka.com and we will be happy to assist you.',
   },
 ]
 
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: faqs.map((f) => ({
+  mainEntity: faqs.map((faq) => ({
     '@type': 'Question',
-    name: f.question,
-    acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
   })),
 }
 
@@ -63,56 +76,72 @@ export function Faq() {
   const [open, setOpen] = useState<number | null>(0)
 
   return (
-    <section id="faq" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 md:py-28">
+    <section
+      id="faq"
+      className="mx-auto max-w-4xl px-4 py-20 sm:px-6 md:py-28"
+    >
       <script
         type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <SectionHeading
-        eyebrow="FAQ"
-        title="Frequently asked questions"
-        description="Everything you need to know about Gionaka."
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
       />
 
-      <Reveal className="mt-12 divide-y divide-border overflow-hidden rounded-3xl border border-border bg-card">
-        {faqs.map((faq, i) => {
-          const isOpen = open === i
-          return (
-            <div key={faq.question}>
-              <h3>
-                <button
-                  type="button"
-                  onClick={() => setOpen(isOpen ? null : i)}
-                  className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
-                  aria-expanded={isOpen}
-                >
-                  <span className="text-base font-semibold text-foreground sm:text-lg">
-                    {faq.question}
-                  </span>
-                  <ChevronDown
-                    className={cn(
-                      'h-5 w-5 shrink-0 text-primary transition-transform duration-300',
-                      isOpen && 'rotate-180',
-                    )}
-                  />
-                </button>
-              </h3>
+      <SectionHeading
+        eyebrow="Frequently Asked Questions"
+        title="Everything You Need to Know About Gionaka"
+        description="Learn how Gionaka helps people find work, hire local professionals, and connect nearby through a simple location-based platform."
+      />
+
+      <Reveal className="mt-12 overflow-hidden rounded-3xl border border-border bg-card shadow-sm">
+
+        <div className="divide-y divide-border">
+          {faqs.map((faq, index) => {
+            const isOpen = open === index
+
+            return (
               <div
-                className={cn(
-                  'grid transition-all duration-300 ease-out',
-                  isOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0',
-                )}
+                key={faq.question}
+                className="transition-colors duration-300 hover:bg-muted/30"
               >
-                <div className="overflow-hidden">
-                  <p className="px-6 pb-5 leading-relaxed text-muted-foreground">
-                    {faq.answer}
-                  </p>
+                <h3>
+                  <button
+                    type="button"
+                    onClick={() => setOpen(isOpen ? null : index)}
+                    className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+                    aria-expanded={isOpen}
+                  >
+                    <span className="text-base font-semibold text-foreground sm:text-lg">
+                      {faq.question}
+                    </span>
+
+                    <ChevronDown
+                      className={cn(
+                        "h-5 w-5 shrink-0 text-primary transition-transform duration-300",
+                        isOpen && "rotate-180"
+                      )}
+                    />
+                  </button>
+                </h3>
+
+                <div
+                  className={cn(
+                    "grid transition-all duration-300 ease-out",
+                    isOpen
+                      ? "grid-rows-[1fr] opacity-100"
+                      : "grid-rows-[0fr] opacity-0"
+                  )}
+                >
+                  <div className="overflow-hidden">
+                    <p className="px-6 pb-6 leading-7 text-muted-foreground">
+                      {faq.answer}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </Reveal>
     </section>
   )
