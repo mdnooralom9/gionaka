@@ -1,504 +1,347 @@
-"use client";
+import {
+  Zap,
+  Wrench,
+  Hammer,
+  Paintbrush,
+  Cog,
+  Car,
+  BrickWall,
+  Sparkles,
+  Trees,
+  Flame,
+  BedDouble,
+  HardHat,
+  Wind,
+  Smartphone,
+  Laptop,
+  Shield,
+  CookingPot,
+  Baby,
+  HeartHandshake,
+  Truck,
+  Droplets,
+  Tv,
+  Camera,
+  Home,
+  type LucideIcon,
+} from "lucide-react";
 
-import { useState } from "react";
-import { Star } from "lucide-react";
-import Link from "next/link";
+import { SectionHeading } from "./section-heading";
+import { Reveal } from "./reveal";
 
+type Category = {
+  label: string;
+  description: string;
+  icon: LucideIcon;
+};
 
-const categories = [
+const categories: Category[] = [
   {
-    name: "Electrician",
-    icon: "⚡",
-    rating: 9.2,
-    workers: "12,500+",
-    jobs: "Electrical Repair, Wiring"
+    label: "Electrician",
+    description: "Wiring • Repair • Installation",
+    icon: Zap,
   },
   {
-    name: "Plumber",
-    icon: "🔧",
-    rating: 8.8,
-    workers: "9,800+",
-    jobs: "Pipe Repair, Fitting"
+    label: "Plumber",
+    description: "Pipe Repair • Fittings • Leakage",
+    icon: Wrench,
   },
   {
-    name: "Carpenter",
-    icon: "🪚",
-    rating: 8.5,
-    workers: "7,200+",
-    jobs: "Furniture, Wood Work"
+    label: "Carpenter",
+    description: "Furniture • Woodwork • Doors",
+    icon: Hammer,
   },
   {
-    name: "Painter",
-    icon: "🎨",
-    rating: 8.3,
-    workers: "6,400+",
-    jobs: "House Painting, Wall Design"
+    label: "Painter",
+    description: "Interior • Exterior • Polish",
+    icon: Paintbrush,
   },
   {
-    name: "AC Repair",
-    icon: "❄️",
-    rating: 9.0,
-    workers: "8,900+",
-    jobs: "AC Service, Installation"
+    label: "Mechanic",
+    description: "Bike • Car • Service",
+    icon: Cog,
   },
   {
-    name: "Mobile Repair",
-    icon: "📱",
-    rating: 8.7,
-    workers: "5,600+",
-    jobs: "Phone Repair, Software"
+    label: "Driver",
+    description: "Taxi • Personal • Delivery",
+    icon: Car,
   },
   {
-    name: "Cleaning Service",
-    icon: "🧹",
-    rating: 9.1,
-    workers: "10,300+",
-    jobs: "Home Cleaning, Deep Clean"
+    label: "Mason",
+    description: "Brickwork • Concrete • Tiles",
+    icon: BrickWall,
   },
   {
-    name: "Mechanic",
-    icon: "🏍️",
-    rating: 8.9,
-    workers: "11,200+",
-    jobs: "Bike, Car Repair"
+    label: "Cleaner",
+    description: "Home • Office Cleaning",
+    icon: Sparkles,
   },
   {
-    name: "Home Tutor",
-    icon: "📚",
-    rating: 9.4,
-    workers: "4,800+",
-    jobs: "School, Skill Training"
+    label: "Gardener",
+    description: "Garden • Lawn Care",
+    icon: Trees,
   },
   {
-    name: "Beauty Service",
-    icon: "💇",
-    rating: 8.6,
-    workers: "6,900+",
-    jobs: "Salon, Personal Care"
-  }
+    label: "Welder",
+    description: "Steel • Iron • Fabrication",
+    icon: Flame,
+  },
+  {
+    label: "Housekeeping",
+    description: "Home • Office Assistance",
+    icon: BedDouble,
+  },
+  {
+    label: "Construction",
+    description: "Building • Civil Work",
+    icon: HardHat,
+  },
+  {
+    label: "AC Technician",
+    description: "Repair • Installation",
+    icon: Wind,
+  },
+  {
+    label: "Mobile Repair",
+    description: "Android • iPhone",
+    icon: Smartphone,
+  },
+  {
+    label: "Computer Repair",
+    description: "Laptop • Desktop",
+    icon: Laptop,
+  },
+  {
+    label: "Security Guard",
+    description: "Residential • Commercial",
+    icon: Shield,
+  },
+  {
+    label: "Cook",
+    description: "Home • Event Catering",
+    icon: CookingPot,
+  },
+  {
+    label: "Babysitter",
+    description: "Child Care Services",
+    icon: Baby,
+  },
+  {
+    label: "Elder Care",
+    description: "Senior Care Assistance",
+    icon: HeartHandshake,
+  },
+  {
+    label: "Packers & Movers",
+    description: "Home & Office Shifting",
+    icon: Truck,
+  },
+  {
+    label: "RO Technician",
+    description: "Water Purifier Service",
+    icon: Droplets,
+  },
+    {
+    label: "Appliance Repair",
+    description: "TV • Fridge • Washing Machine",
+    icon: Tv,
+  },
+  {
+    label: "CCTV Installation",
+    description: "Home • Office Security",
+    icon: Camera,
+  },
+  {
+    label: "Delivery Partner",
+    description: "Food • Parcel • Courier",
+    icon: Home,
+  },
+  {
+    label: "Tile Worker",
+    description: "Floor • Wall Tile Installation",
+    icon: BrickWall,
+  },
+  {
+    label: "Fabricator",
+    description: "Steel • Gates • Railings",
+    icon: Flame,
+  },
+  {
+    label: "Glass Worker",
+    description: "Glass Fitting • Repair",
+    icon: Sparkles,
+  },
+  {
+    label: "Aluminium Worker",
+    description: "Doors • Windows • Frames",
+    icon: Wrench,
+  },
+  {
+    label: "Interior Worker",
+    description: "Modular • False Ceiling",
+    icon: Home,
+  },
+  {
+    label: "Helper",
+    description: "Construction • Loading • General",
+    icon: HardHat,
+  },
+  {
+    label: "House Maid",
+    description: "Cleaning • Cooking • Home Care",
+    icon: BedDouble,
+  },
 ];
 
-
 export function Categories() {
-
-
-  const [search,setSearch] = useState("");
-
-  const [sortRating,setSortRating] = useState(false);
-
-
-
-  const filteredCategories = categories
-  .filter((item)=>
-    item.name
-    .toLowerCase()
-    .includes(search.toLowerCase())
-  )
-  .sort((a,b)=>
-    sortRating
-    ? b.rating - a.rating
-    : 0
-  );
-
-
-
   return (
-
-<section className="py-16 bg-gray-50">
-
-
-<div className="max-w-7xl mx-auto px-6">
-
-
-
-<div className="text-center mb-10">
-
-
-<h2 className="text-3xl md:text-4xl font-bold">
-Top Rated Local Workers
-</h2>
-
-
-<p className="mt-3 text-gray-600">
-Find trusted professionals with Gionaka rating system
-</p>
-
-
-</div>
-
-
-
-
-
-<div className="flex flex-col md:flex-row gap-4 justify-center mb-10">
-
-
-
-<input
-
-type="text"
-
-placeholder="Search service..."
-
-value={search}
-
-onChange={(e)=>setSearch(e.target.value)}
-
-className="
-w-full
-md:w-96
-px-5
-py-3
-rounded-full
-border
-outline-none
-focus:ring-2
-focus:ring-green-500
-"
-
-/>
-
-
-
-
-
-<button
-
-onClick={()=>setSortRating(!sortRating)}
-
-className="
-px-6
-py-3
-rounded-full
-bg-green-600
-text-white
-font-semibold
-"
-
->
-
-⭐ Top Rated
-
-</button>
-
-
-
-</div>
-
-
-
-
-
-
-<div className="
-grid 
-grid-cols-1 
-sm:grid-cols-2 
-lg:grid-cols-3 
-gap-6
-">
-
-
-
-
-
-{filteredCategories.map((item,index)=>(
-
-
-
-<div
-
-key={index}
-
-className="
-bg-white
-rounded-3xl
-border
-p-6
-shadow-sm
-hover:shadow-2xl
-hover:-translate-y-2
-transition-all
-duration-300
-"
-
->
-
-
-
-
-<div className="flex justify-between items-start">
-
-
-
-
-
-<div className="flex gap-4 items-center">
-
-
-
-<div
-
-className="
-w-16
-h-16
-rounded-2xl
-bg-green-100
-flex
-items-center
-justify-center
-text-4xl
-"
-
->
-
-{item.icon}
-
-</div>
-
-
-
-
-
-<div>
-
-
-<h3 className="text-xl font-bold">
-{item.name}
-</h3>
-
-
-<p className="text-sm text-gray-500">
-{item.workers} available
-</p>
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-<div
-
-className="
-bg-green-600
-text-white
-px-3
-py-2
-rounded-xl
-flex
-items-center
-gap-1
-"
-
->
-
-
-<Star
-
-size={16}
-
-className="fill-white"
-
-/>
-
-
-<span className="font-bold">
-{item.rating}
-</span>
-
-
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-<p className="mt-5 text-gray-600 text-sm">
-
-{item.jobs}
-
-</p>
-
-
-
-
-
-
-
-<div className="mt-5">
-
-
-
-<div className="flex justify-between text-sm mb-2">
-
-
-<span>
-Gionaka Trust Score
-</span>
-
-
-<span className="font-semibold">
-{item.rating}/10
-</span>
-
-
-</div>
-
-
-
-
-
-
-<div
-
-className="
-h-3
-bg-gray-200
-rounded-full
-overflow-hidden
-"
-
->
-
-
-<div
-
-className="
-h-full
-bg-green-500
-rounded-full
-"
-
-style={{
-width:`${item.rating * 10}%`
-}}
-
-/>
-
-
-
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-<Link
-
-href={`/categories/${item.name
-.toLowerCase()
-.replaceAll(" ","-")}`}
-
->
-
-
-
-<button
-
-className="
-mt-6
-w-full
-py-3
-rounded-xl
-bg-black
-text-white
-font-semibold
-hover:bg-gray-800
-transition
-"
-
->
-
-View Workers
-
-</button>
-
-
-
-</Link>
-
-
-
-
-
-
-</div>
-
-
-
-))}
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-<div className="text-center mt-10">
-
-
-<button
-
-className="
-bg-black
-text-white
-px-8
-py-3
-rounded-full
-hover:bg-gray-800
-transition
-"
-
->
-
-View All Categories
-
-</button>
-
-
-
-</div>
-
-
-
-
-
-
-</div>
-
-
-</section>
-
+    <section
+      id="categories"
+      className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 md:py-28"
+    >
+      <SectionHeading
+        eyebrow="Popular Categories"
+        title="Find Local Professionals by Category"
+        description="Browse skilled professionals across popular service categories. Whether you're looking for work or hiring locally, Gionaka helps you connect with the right people nearby."
+      />
+
+      <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {categories.map((category, index) => {
+          const Icon = category.icon;
+
+          return (
+            <Reveal
+              key={category.label}
+              delay={(index % 4) * 70}
+              className="group"
+            >
+              <article
+                className="
+                  flex
+                  items-center
+                  gap-4
+                  rounded-2xl
+                  border
+                  border-border
+                  bg-card
+                  p-5
+                  shadow-sm
+                  transition-all
+                  duration-300
+                  hover:-translate-y-1
+                  hover:border-primary/40
+                  hover:shadow-xl
+                  hover:shadow-primary/10
+                  min-h-[104px]
+                "
+              >
+                <div
+                  className="
+                    flex
+                    h-14
+                    w-14
+                    shrink-0
+                    items-center
+                    justify-center
+                    rounded-xl
+                    bg-accent
+                    text-primary
+                    transition-all
+                    duration-300
+                    group-hover:bg-primary
+                    group-hover:text-white
+                  "
+                >
+                  <Icon
+                    className="h-7 w-7"
+                    strokeWidth={2}
+                  />
+                </div>
+
+                                <div className="min-w-0 flex-1">
+                  <h3 className="text-base font-semibold leading-tight text-foreground transition-colors duration-300 group-hover:text-primary">
+                    {category.label}
+                  </h3>
+
+                  <p className="mt-1 text-sm leading-6 text-muted-foreground">
+                    {category.description}
+                  </p>
+                </div>
+              </article>
+            </Reveal>
+          );
+        })}
+      </div>
+
+      <div className="mt-16 rounded-3xl border border-border bg-gradient-to-r from-primary/5 via-background to-secondary/5 p-8">
+        <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+          <div>
+            <span className="inline-flex rounded-full bg-primary/10 px-4 py-1 text-sm font-semibold text-primary">
+              Growing Every Month
+            </span>
+
+            <h3 className="mt-5 text-3xl font-bold tracking-tight text-foreground">
+              Can't find your category?
+            </h3>
+
+            <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
+              Gionaka continuously adds new service categories to help more
+              workers and employers connect locally. Our platform is designed
+              to support a growing range of skilled professionals across India.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-4">
+            <div className="rounded-2xl border border-border bg-card p-5 text-center">
+              <div className="text-3xl font-bold text-primary">
+                30+
+              </div>
+
+              <p className="mt-2 text-sm text-muted-foreground">
+                Service Categories
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border bg-card p-5 text-center">
+              <div className="text-3xl font-bold text-primary">
+                Local
+              </div>
+
+              <p className="mt-2 text-sm text-muted-foreground">
+                Location Based
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border bg-card p-5 text-center">
+              <div className="text-3xl font-bold text-primary">
+                Direct
+              </div>
+
+              <p className="mt-2 text-sm text-muted-foreground">
+                No Middlemen
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border bg-card p-5 text-center">
+              <div className="text-3xl font-bold text-primary">
+                Fast
+              </div>
+
+              <p className="mt-2 text-sm text-muted-foreground">
+                Easy to Connect
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <div className="mt-10 text-center">
+        <p className="mx-auto max-w-3xl text-sm leading-7 text-muted-foreground">
+          Gionaka connects local professionals and people looking for services
+          through a simple location-based platform. Browse categories, choose
+          the right service, and connect directly without middlemen.
+        </p>
+      </div>
+    </section>
   );
-
 }
