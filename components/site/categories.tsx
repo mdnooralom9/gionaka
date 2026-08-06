@@ -170,4 +170,28 @@ export function Categories() {
         description="Browse skilled professionals across popular service categories. Whether you're looking for work or hiring locally, Gionaka helps you connect with the right people nearby."
       />
 
-      {/* PART 2 STARTS HERE */}
+      <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        {categories.map((category, index) => {
+          const Icon = category.icon
+          return (
+            <Reveal key={category.label} delay={index * 40}>
+              <div className="group flex h-full flex-col gap-3 rounded-2xl border border-border bg-card p-5 shadow-sm transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10">
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                  <Icon className="h-6 w-6" aria-hidden="true" />
+                </span>
+                <div>
+                  <h3 className="font-semibold text-card-foreground">
+                    {category.label}
+                  </h3>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {category.description}
+                  </p>
+                </div>
+              </div>
+            </Reveal>
+          )
+        })}
+      </div>
+    </section>
+  )
+}
