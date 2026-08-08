@@ -232,7 +232,7 @@ export function Categories() {
                   hover:border-primary/40
                   hover:shadow-xl
                   hover:shadow-primary/10
-                  min-h-[104px]
+                  min-h-26
                 "
               >
                 <div

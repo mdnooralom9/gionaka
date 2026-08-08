@@ -8,7 +8,7 @@ export function DownloadCta() {
       className="scroll-mt-24 px-4 py-20 sm:px-6 md:py-28"
     >
       <Reveal>
-        <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-cyan-500 to-cyan-400 px-6 py-16 text-center shadow-2xl sm:px-10 md:px-16">
+        <div className="relative overflow-hidden rounded-[2rem] bg-linear-to-br from-cyan-500 to-cyan-400 px-6 py-16 text-center shadow-2xl sm:px-10 md:px-16">
 
           {/* Background Effects */}
           <div className="absolute inset-0 opacity-10">
