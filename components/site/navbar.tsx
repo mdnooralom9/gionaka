@@ -31,13 +31,12 @@ export function Navbar() {
           ? 'border-b border-border/70 bg-background/80 backdrop-blur-xl'
           : 'bg-transparent',
       )}
-    >
-     a <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+    ><nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
          <Image
   src="/gionaka-logo.png"
   alt="Gionaka"
-  width={180}
-  height={60}
+  width={240}
+  height={100}
   className="h-10 w-auto"
   priority
 />
