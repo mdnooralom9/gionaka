@@ -58,7 +58,7 @@ const categories: Category[] = [
   },
   {
     label: "Mechanic",
-    description: "Bike • Car • Service",
+    description: "Bike • Car • Repair",
     icon: Cog,
   },
   {
@@ -103,12 +103,12 @@ const categories: Category[] = [
   },
   {
     label: "Mobile Repair",
-    description: "Android • iPhone",
+    description: "Screen • Battery • Software",
     icon: Smartphone,
   },
   {
     label: "Computer Repair",
-    description: "Laptop • Desktop",
+    description: "Laptop • Desktop • Repair",
     icon: Laptop,
   },
   {
@@ -118,7 +118,7 @@ const categories: Category[] = [
   },
   {
     label: "Cook",
-    description: "Home • Event Catering",
+    description: "Home • Restaurant • Catering",
     icon: CookingPot,
   },
   {
@@ -141,7 +141,7 @@ const categories: Category[] = [
     description: "Water Purifier Service",
     icon: Droplets,
   },
-    {
+  {
     label: "Appliance Repair",
     description: "TV • Fridge • Washing Machine",
     icon: Tv,
@@ -154,11 +154,11 @@ const categories: Category[] = [
   {
     label: "Delivery Partner",
     description: "Food • Parcel • Courier",
-    icon: Home,
+    icon: Truck,
   },
   {
     label: "Tile Worker",
-    description: "Floor • Wall Tile Installation",
+    description: "Floor • Wall Installation",
     icon: BrickWall,
   },
   {
@@ -197,15 +197,15 @@ export function Categories() {
   return (
     <section
       id="categories"
-      className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 md:py-28"
+      className="mx-auto max-w-7xl px-4 py-20 sm:px-6 md:py-28"
     >
       <SectionHeading
-        eyebrow="Popular Categories"
-        title="Find Local Professionals by Category"
-        description="Browse skilled professionals across popular service categories. Whether you're looking for work or hiring locally, Gionaka helps you connect with the right people nearby."
+        eyebrow="Categories"
+        title="Find Local Services Across Multiple Categories"
+        description="Browse skilled local professionals across popular service categories. Whether you're looking for work or hiring nearby workers, Gionaka helps you connect quickly."
       />
 
-      <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
         {categories.map((category, index) => {
           const Icon = category.icon;
 
@@ -258,7 +258,7 @@ export function Categories() {
                   />
                 </div>
 
-                                <div className="min-w-0 flex-1">
+                <div className="min-w-0 flex-1">
                   <h3 className="text-base font-semibold leading-tight text-foreground transition-colors duration-300 group-hover:text-primary">
                     {category.label}
                   </h3>
@@ -273,73 +273,14 @@ export function Categories() {
         })}
       </div>
 
-      <div className="mt-16 rounded-3xl border border-border bg-gradient-to-r from-primary/5 via-background to-secondary/5 p-8">
-        <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
-          <div>
-            <span className="inline-flex rounded-full bg-primary/10 px-4 py-1 text-sm font-semibold text-primary">
-              Growing Every Month
-            </span>
-
-            <h3 className="mt-5 text-3xl font-bold tracking-tight text-foreground">
-              Can't find your category?
-            </h3>
-
-            <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
-              Gionaka continuously adds new service categories to help more
-              workers and employers connect locally. Our platform is designed
-              to support a growing range of skilled professionals across India.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4">
-            <div className="rounded-2xl border border-border bg-card p-5 text-center">
-              <div className="text-3xl font-bold text-primary">
-                30+
-              </div>
-
-              <p className="mt-2 text-sm text-muted-foreground">
-                Service Categories
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-border bg-card p-5 text-center">
-              <div className="text-3xl font-bold text-primary">
-                Local
-              </div>
-
-              <p className="mt-2 text-sm text-muted-foreground">
-                Location Based
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-border bg-card p-5 text-center">
-              <div className="text-3xl font-bold text-primary">
-                Direct
-              </div>
-
-              <p className="mt-2 text-sm text-muted-foreground">
-                No Middlemen
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-border bg-card p-5 text-center">
-              <div className="text-3xl font-bold text-primary">
-                Fast
-              </div>
-
-              <p className="mt-2 text-sm text-muted-foreground">
-                Easy to Connect
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-            <div className="mt-10 text-center">
+      {/* SEO Content */}
+      <div className="mt-12 text-center">
         <p className="mx-auto max-w-3xl text-sm leading-7 text-muted-foreground">
-          Gionaka connects local professionals and people looking for services
-          through a simple location-based platform. Browse categories, choose
-          the right service, and connect directly without middlemen.
+          Gionaka helps people find local workers and local jobs across
+          multiple service categories including electricians, plumbers,
+          carpenters, painters, drivers, mechanics, construction workers,
+          cleaners, delivery partners and many more. Connect directly with
+          nearby professionals without middlemen.
         </p>
       </div>
     </section>
