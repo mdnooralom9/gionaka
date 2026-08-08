@@ -42,13 +42,6 @@ export function DownloadCta() {
             Find Work or Hire Local Professionals Near You
           </h2>
 
-          {/* Description */}
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-primary-foreground/90">
-            Download Gionaka to find work, hire local professionals, and
-            connect directly with nearby people through a simple
-            location-based platform.
-          </p>
-
           {/* Store Buttons */}
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <GooglePlayButton className="bg-background text-foreground shadow-xl hover:scale-105 transition-transform duration-300" />
