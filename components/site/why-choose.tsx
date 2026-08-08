@@ -112,7 +112,7 @@ export function WhyChoose() {
           className="relative flex justify-center"
           delay={150}
         >
-          <div className="absolute inset-0 -z-10 mx-auto h-[82%] w-[82%] translate-y-8 rounded-[3rem] bg-gradient-to-b from-secondary/15 to-transparent" />
+          <div className="absolute inset-0 -z-10 mx-auto h-[82%] w-[82%] translate-y-8 rounded-[3rem] bg-linear-to-b from-secondary/15 to-transparent" />
 
           <PhoneMockup
             src="/app-results-screen.png"
