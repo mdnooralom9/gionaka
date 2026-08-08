@@ -23,11 +23,6 @@ export function DownloadCta() {
               Get the App
             </span>
 
-            {/* Heading */}
-            <h2 className="mx-auto mt-6 max-w-3xl text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl">
-              Find Work or Hire Local
-            </h2>
-
             {/* Description */}
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/90">
               One simple platform to find work, hire local professionals, and
