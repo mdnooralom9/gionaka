@@ -52,7 +52,12 @@ export function DownloadCta() {
             <GooglePlayButton className="bg-background text-foreground shadow-xl hover:scale-105 transition-transform duration-300" />
 
             <AppStoreButton className="border border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20 transition-colors duration-300" />
-      
+          </div>
+
+          {/* Bottom Text */}
+          <p className="mt-8 text-sm text-primary-foreground/80">
+          </p>
+        </div>
       </Reveal>
     </section>
   );
