@@ -53,7 +53,6 @@ export function DownloadCta() {
 
             <AppStoreButton className="border border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20 transition-colors duration-300" />
           </div>
-
         </div>
       </Reveal>
     </section>
