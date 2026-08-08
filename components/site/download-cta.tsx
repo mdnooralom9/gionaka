@@ -39,8 +39,13 @@ export function DownloadCta() {
 
           {/* Heading */}
           <h2 className="mx-auto mt-6 max-w-3xl text-balance text-3xl font-extrabold tracking-tight text-primary-foreground sm:text-4xl md:text-5xl">
-            Find Work or Hire Local Professionals Near You
+            Find Work or Hire Local
           </h2>
+
+{/* Description */}
+<p className="mx-auto mt-5 max-w-xl text-base leading-7 text-primary-foreground/90">
+  Download Gionaka to find work, hire local professionals, and connect with nearby people across India.
+</p>
 
           {/* Store Buttons */}
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
