@@ -56,6 +56,7 @@ export function DownloadCta() {
 
           {/* Bottom Text */}
           <p className="mt-8 text-sm text-primary-foreground/80">
+            Available on Android • iOS Support Coming Soon
           </p>
         </div>
       </Reveal>
