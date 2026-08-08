@@ -1,7 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { Menu, X, MapPin } from 'lucide-react'
+import Image from 'next/image'
+import { Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const links = [
@@ -31,16 +32,15 @@ export function Navbar() {
           : 'bg-transparent',
       )}
     >
-      <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <a href="#top" className="flex items-center gap-2" aria-label="Gionaka home">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-md shadow-primary/30">
-            <MapPin className="h-5 w-5" strokeWidth={2.5} />
-          </span>
-          <span className="text-xl font-extrabold tracking-tight text-foreground">
-            Gionaka
-          </span>
-        </a>
-
+     a <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+         <Image
+  src="/gionaka-logo.png"
+  alt="Gionaka"
+  width={180}
+  height={60}
+  className="h-10 w-auto"
+  priority
+/>
         <div className="hidden items-center gap-8 md:flex">
           {links.map((link) => (
             <a
