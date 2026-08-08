@@ -57,7 +57,7 @@ export function Hero() {
         </div>
 
         <div className="relative flex justify-center animate-float">
-          <div className="absolute inset-0 -z-10 mx-auto h-[85%] w-[85%] translate-y-6 rounded-[3rem] bg-gradient-to-b from-accent to-transparent" />
+          <div className="absolute inset-0 -z-10 mx-auto h-[85%] w-[85%] translate-y-6 rounded-[3rem] bg-linear-to-b from-accent to-transparent" />
           <PhoneMockup
             src="/app-home-screen.png"
             alt="Gionaka app home screen showing Find Work and Hire Worker options with nearby workers"
