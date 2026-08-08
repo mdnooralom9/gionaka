@@ -12,9 +12,9 @@ import { Reveal } from "./reveal";
 const reasons = [
   {
     icon: MapPin,
-    title: "Nearby Connections",
+    title: "Location-Based Matching",
     description:
-      "Find nearby people based on your selected location for faster and more relevant local connections.",
+      "Connect with nearby workers or employers based on your selected location for faster and more relevant local connections.",
   },
   {
     icon: PhoneCall,
@@ -24,27 +24,27 @@ const reasons = [
   },
   {
     icon: LayoutGrid,
-    title: "Simple & Easy to Use",
+    title: "Easy to Use",
     description:
-      "A clean, user-friendly interface designed to make finding work or hiring locally simple for everyone.",
-  },
-  {
-    icon: Flag,
-    title: "Made for Local Communities",
-    description:
-      "Built to help people connect within their local area for everyday work and services across India.",
-  },
-  {
-    icon: MapPin,
-    title: "Location-Based Matching",
-    description:
-      "Connect with nearby people based on your selected location to save time and improve local visibility.",
+      "A clean and simple interface designed to help anyone find work or hire locally with ease.",
   },
   {
     icon: Shield,
     title: "Phone Number Sign-In",
     description:
-      "Sign in quickly using your phone number for a simple and convenient experience.",
+      "Sign in securely using your phone number with a fast and hassle-free verification process.",
+  },
+  {
+    icon: Flag,
+    title: "Built for India",
+    description:
+      "Designed for India's local workforce and everyday service needs across cities, towns, and villages.",
+  },
+  {
+    icon: Check,
+    title: "Multiple Service Categories",
+    description:
+      "Browse a wide range of local service categories to quickly find the right worker or job nearby.",
   },
 ];
 
