@@ -35,8 +35,8 @@ export function Navbar() {
          <Image
   src="/gionaka-logo.png"
   alt="Gionaka"
-  width={245}
-  height={100}
+  width={170}
+  height={75}
   className="h-10 w-auto"
   priority
 />
