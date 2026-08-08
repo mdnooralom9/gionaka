@@ -44,7 +44,7 @@ export function DownloadCta() {
 
 {/* Description */}
 <p className="mx-auto mt-5 max-w-xl text-base leading-7 text-primary-foreground/90">
-  Download Gionaka to find work, hire local professionals, and connect with nearby people across India.
+  One simple platform to find work, hire local professionals, and connect with people nearby.
 </p>
 
           {/* Store Buttons */}
