@@ -37,7 +37,7 @@ export function Navbar() {
   alt="Gionaka"
   width={170}
   height={75}
-  className="h-10 w-auto"
+  className="h-12 w-auto"
   priority
 />
         <div className="hidden items-center gap-8 md:flex">
