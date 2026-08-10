@@ -22,9 +22,9 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
-            Find Work.
+            <span className="text-primary">Find Work.</span>
             <br />
-            <span className="text-primary">Hire Local.</span>
+            <span className="text-secondary">Hire Local.</span>
             <br />
             Build India.
           </h1>
