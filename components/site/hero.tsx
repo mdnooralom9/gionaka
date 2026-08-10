@@ -25,8 +25,6 @@ export function Hero() {
             <span className="text-primary">Find Work.</span>
             <br />
             <span className="text-secondary">Hire Local.</span>
-            <br />
-            Build India.
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
