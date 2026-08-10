@@ -37,7 +37,7 @@ type Category = {
 
 const categories: Category[] = [
   {
-    label: "Electriciaan",
+    label: "Electrician",
     description: "Wiring • Repair • Installation",
     icon: Zap,
   },
