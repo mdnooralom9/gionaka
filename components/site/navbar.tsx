@@ -85,6 +85,13 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="#download"
+              onClick={() => setOpen(false)}
+              className="mt-2 inline-flex items-center justify-center rounded-full bg-primary px-5 py-3 text-base font-semibold text-primary-foreground"
+            >
+              Download App
+            </a>
           </div>
         </div>
       )}
