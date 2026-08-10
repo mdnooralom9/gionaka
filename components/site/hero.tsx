@@ -1,6 +1,6 @@
 import { MapPin, Star } from 'lucide-react'
 import { PhoneMockup } from './phone-mockup'
-import { GooglePlayButton, AppStoreButton } from './store-buttons'
+import { DownloadAppButton } from './store-buttons'
 
 export function Hero() {
   return (
@@ -33,9 +33,8 @@ export function Hero() {
             connects nearby workers and employers.
           </p>
 
-          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:justify-start">
-            <GooglePlayButton />
-            <AppStoreButton />
+          <div className="mt-8 flex justify-center lg:justify-start">
+            <DownloadAppButton className="w-full max-w-xs sm:w-auto" />
           </div>
 
           <div className="mt-8 flex items-center justify-center gap-3 text-sm text-muted-foreground lg:justify-start">

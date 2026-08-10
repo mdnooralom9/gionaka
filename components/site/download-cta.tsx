@@ -1,4 +1,4 @@
-import { GooglePlayButton, AppStoreButton } from "./store-buttons";
+import { DownloadAppButton } from './store-buttons';
 import { Reveal } from "./reveal";
 
 export function DownloadCta() {
@@ -29,11 +29,8 @@ export function DownloadCta() {
               connect with people nearby.
             </p>
 
-            {/* Store Buttons */}
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <GooglePlayButton className="bg-background text-foreground shadow-xl transition-transform duration-300 hover:scale-105" />
-
-              <AppStoreButton className="border border-white/30 bg-white/10 text-white transition-colors duration-300 hover:bg-white/20" />
+            <div className="mt-10 flex justify-center">
+              <DownloadAppButton className="bg-background text-foreground shadow-xl hover:bg-background/90" />
             </div>
 
           </div>
