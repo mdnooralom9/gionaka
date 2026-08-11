@@ -6,7 +6,6 @@ const companyLinks = [
   { label: "How It Works", href: "#how-it-works" },
   { label: "Categories", href: "#categories" },
   { label: "FAQ", href: "#faq" },
-  { label: "Download App", href: "#download" },
 ];
 
 const legalLinks = [
