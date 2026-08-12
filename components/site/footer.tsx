@@ -3,7 +3,7 @@ import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
 const legalLinks = [
   { label: "Privacy Policy", href: "#" },
   { label: "Terms & Conditions", href: "#" },
-  { label: "Help Centre", href: "#app/help" },
+  { label: "Help Centre", href: "#app/help/page.tsx" },
   { label: "Contact Support", href: "mailto:support@gionaka.com" },
 ];
 
