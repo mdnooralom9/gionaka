@@ -52,15 +52,6 @@ export function Navbar() {
           ))}
         </div>
 
-        <div className="hidden md:block">
-          <a
-            href="#download"
-            className="inline-flex items-center rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-transform hover:-translate-y-0.5"
-          >
-            Download App
-          </a>
-        </div>
-
         <button
           type="button"
           className="inline-flex h-10 w-10 items-center justify-center rounded-xl text-foreground md:hidden"
@@ -85,13 +76,6 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="#download"
-              onClick={() => setOpen(false)}
-              className="mt-2 inline-flex items-center justify-center rounded-full bg-primary px-5 py-3 text-base font-semibold text-primary-foreground"
-            >
-              Download App
-            </a>
           </div>
         </div>
       )}

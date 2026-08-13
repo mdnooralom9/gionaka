@@ -1,18 +1,9 @@
 import { MapPin, Mail, Phone, ArrowUpRight } from "lucide-react";
 
-const companyLinks = [
-  { label: "About", href: "#top" },
-  { label: "Features", href: "#features" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Categories", href: "#categories" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Download App", href: "#download" },
-];
-
 const legalLinks = [
-  { label: "Privacy Policy", href: "#" },
-  { label: "Terms & Conditions", href: "#" },
-  { label: "Help Centre", href: "#faq" },
+  { label: "Privacy Policy", href: "/privacy" },
+  { label: "Terms & Conditions", href: "/terms" },
+  { label: "Help Centre", href: "/help" },
   { label: "Contact Support", href: "mailto:support@gionaka.com" },
 ];
 
@@ -97,27 +88,6 @@ export function Footer() {
                 Available Across India
               </div>
             </div>
-          </div>
-
-          {/* Company */}
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground">
-              Company
-            </h3>
-
-            <ul className="mt-5 space-y-3">
-              {companyLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
-                  >
-                    {link.label}
-                    <ArrowUpRight className="h-3.5 w-3.5" />
-                  </a>
-                </li>
-              ))}
-            </ul>
           </div>
 
           {/* Legal */}

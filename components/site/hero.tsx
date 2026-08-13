@@ -1,6 +1,6 @@
 import { MapPin, Star } from 'lucide-react'
 import { PhoneMockup } from './phone-mockup'
-import { GooglePlayButton, AppStoreButton } from './store-buttons'
+import { DownloadAppButton } from './store-buttons'
 
 export function Hero() {
   return (
@@ -22,20 +22,17 @@ export function Hero() {
           </span>
 
           <h1 className="mt-6 text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
-            Find Work.
+            <span className="text-primary">Find Work.</span>
             <br />
-            <span className="text-primary">Hire Local.</span>
-            <br />
-            Build India.
+            <span className="text-secondary">Hire Local.</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
             connects nearby workers and employers.
           </p>
 
-          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row lg:justify-start">
-            <GooglePlayButton />
-            <AppStoreButton />
+          <div className="mt-8 flex justify-center lg:justify-start">
+            <DownloadAppButton className="w-full max-w-xs sm:w-auto" />
           </div>
 
           <div className="mt-8 flex items-center justify-center gap-3 text-sm text-muted-foreground lg:justify-start">

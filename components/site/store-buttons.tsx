@@ -1,12 +1,15 @@
+'use client'
+
+import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
+
+const PLAY_STORE_URL = 'https://play.google.com/store/search?q=gionaka&c=apps'
+const APP_STORE_URL = 'https://apps.apple.com/us/search?term=gionaka'
 
 function GooglePlayIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 512 512" className={className} aria-hidden="true">
-      <path
-        fill="#00d3f2"
-        d="M47 32.6C40.6 39 37 48.6 37 61v390c0 12.4 3.6 22 10 28.4L269 256 47 32.6z"
-      />
+      <path fill="#00d3f2" d="M47 32.6C40.6 39 37 48.6 37 61v390c0 12.4 3.6 22 10 28.4L269 256 47 32.6z" />
       <path fill="#00e676" d="M47 32.6 349 205l63-63L92 22C74 12 58 22 47 32.6z" />
       <path fill="#ffd600" d="M412 142 349 205l63 51 61-35c18-11 18-40 0-51l-61-28z" />
       <path fill="#ff3d00" d="M47 479.4C58 490 74 500 92 490l320-178-63-51L47 479.4z" />
@@ -22,43 +25,54 @@ function AppleIcon({ className }: { className?: string }) {
   )
 }
 
-export function GooglePlayButton({ className }: { className?: string }) {
+function getDownloadUrl() {
+  if (typeof navigator === 'undefined') return PLAY_STORE_URL
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream
+    ? APP_STORE_URL
+    : PLAY_STORE_URL
+}
+
+export function DownloadAppButton({ className }: { className?: string }) {
   return (
     <a
-      href="#download"
+      href={getDownloadUrl()}
+      target="_blank"
+      rel="noreferrer"
       className={cn(
-        'group inline-flex items-center gap-3 rounded-2xl bg-foreground px-5 py-3 text-background shadow-lg shadow-foreground/10 transition-transform hover:-translate-y-0.5',
+        'group inline-flex min-h-14 items-center justify-center gap-3 rounded-full bg-primary px-7 py-4 text-base font-bold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/30 active:translate-y-0 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2',
         className,
       )}
-      aria-label="Download Gionaka on Google Play"
+      aria-label="Download Gionaka app"
     >
-      <GooglePlayIcon className="h-7 w-7" />
-      <span className="flex flex-col text-left leading-none">
-        <span className="text-[10px] font-medium uppercase tracking-wide opacity-70">
-          Get it on
-        </span>
-        <span className="text-lg font-semibold">Google Play</span>
+      <span className="flex items-center gap-2" aria-hidden="true">
+        <GooglePlayIcon className="size-6" />
+        <AppleIcon className="size-5" />
       </span>
+      <span>Download App</span>
     </a>
   )
 }
 
-export function AppStoreButton({ className }: { className?: string }) {
+export function StickyDownloadApp() {
+  const [isVisible, setIsVisible] = useState(false)
+
+  useEffect(() => {
+    const hero = document.getElementById('top')
+    if (!hero) return
+    const observer = new IntersectionObserver(([entry]) => setIsVisible(!entry.isIntersecting), { threshold: 0.05 })
+    observer.observe(hero)
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <div
       className={cn(
-        'inline-flex items-center gap-3 rounded-2xl border border-border bg-card px-5 py-3 text-foreground',
-        className,
+        'fixed inset-x-0 bottom-0 z-50 flex justify-center px-4 pb-[max(1rem,env(safe-area-inset-bottom))] transition-all duration-300',
+        isVisible ? 'translate-y-0 opacity-100' : 'pointer-events-none translate-y-6 opacity-0',
       )}
-      aria-label="Gionaka on the App Store, coming soon"
+      aria-hidden={!isVisible}
     >
-      <AppleIcon className="h-7 w-7" />
-      <span className="flex flex-col text-left leading-none">
-        <span className="text-[10px] font-medium uppercase tracking-wide text-muted-foreground">
-          Coming soon on
-        </span>
-        <span className="text-lg font-semibold">App Store</span>
-      </span>
+      <DownloadAppButton className="w-full max-w-[420px] bg-primary/95 shadow-2xl backdrop-blur-md" />
     </div>
   )
 }
