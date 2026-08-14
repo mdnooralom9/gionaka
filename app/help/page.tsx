@@ -208,7 +208,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
         </p>
 
         <p>
-          Gionaka supports a wide range of work and service categories, making it easier to find work or hire nearby workers.
+          Gionaka supports a wide range of work and service categories, helping users connect with nearby people based on their location and selected category.
         </p>
       </>
     ),
