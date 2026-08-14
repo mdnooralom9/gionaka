@@ -196,18 +196,19 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
     content: (
       <>
         <p>
-          Anyone in India can join Gionaka.
+          Anyone looking for work or searching for local workers can join Gionaka
         </p>
 
         <p>
-          Skilled workers such as electricians, plumbers, carpenters,
-          painters, mechanics, drivers, construction workers, house maids,
-          and many other professionals can create a profile to find work.
+          Whether you're an individual looking for work or someone looking to hire local workers, Gionaka helps you connect with nearby people based on your location and selected category.
         </p>
 
         <p>
-          Individuals, homeowners, businesses, and contractors looking to
-          hire reliable local workers can also use Gionaka.
+          To use Gionaka, you must meet the minimum legal working age in your country and comply with all applicable local laws and regulations.
+        </p>
+
+        <p>
+          Gionaka supports a wide range of work and service categories, making it easier to find work or hire nearby workers.
         </p>
       </>
     ),
