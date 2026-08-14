@@ -492,33 +492,24 @@ export default function HelpPage() {
       </header>
 
       {/* Hero */}
-      <section className="border-b border-border bg-muted/30">
-        <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 md:py-20">
-          <div className="mx-auto max-w-3xl text-center">
-            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm">
-              <HelpCircle className="h-7 w-7" />
-            </div>
+<section className="border-b border-border bg-muted/30">
+  <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 md:py-20">
+    <div className="mx-auto max-w-3xl text-center">
+      <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm">
+        <HelpCircle className="h-7 w-7" />
+      </div>
 
-            <h1 className="mt-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
-              Gionaka Help Centre
-            </h1>
+      <h1 className="mt-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
+        Gionaka Help Centre
+      </h1>
 
-            <p className="mt-5 text-base leading-7 text-muted-foreground md:text-lg">
-              Find answers to common questions, troubleshooting steps, and
-              ways to contact our support team.
-            </p>
-
-            {/* Search UI */}
-            <div className="mx-auto mt-8 flex max-w-2xl items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 shadow-sm">
-              <Search className="h-5 w-5 text-muted-foreground" />
-
-              <span className="text-sm text-muted-foreground">
-                Search for help...
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
+      <p className="mt-5 text-base leading-7 text-muted-foreground md:text-lg">
+        Find answers to common questions, troubleshooting steps, and ways to
+        contact our support team.
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* Content */}
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 md:py-16">
