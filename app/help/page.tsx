@@ -181,7 +181,7 @@ const faqSections = [
         </p>
 
         <p>
-          User can easily find verified local workers based on their
+          Users can easily find local workers based on their
           location and category, making the hiring process faster and more
           convenient.
         </p>
@@ -307,7 +307,7 @@ const faqSections = [
         </p>
 
         <p>
-          <strong>Hire Worker</strong> helps people looking for workers find
+          <strong>Hire Locally</strong> helps people looking for workers find
           nearby workers based on the selected category and location.
         </p>
 
