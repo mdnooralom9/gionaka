@@ -176,10 +176,9 @@ const faqSections = [
     content: (
       <>
         <p>
-          Gionaka is India's digital platform for local workers and people
-          looking to hire them. Whether you're an electrician, plumber,
-          carpenter, painter, mechanic, driver, or any other skilled worker,
-          Gionaka helps you connect with nearby work opportunities.
+          Gionaka is a location-based platform that connects people looking for work with people searching for local workers. Whether you're looking for a job, hiring someone for a service, or exploring other local categories, Gionaka helps you connect with nearby people based on your location and selected category.
+
+By showing relevant nearby results, Gionaka makes it simple to find the right person for work or hire the right local worker, all without unnecessary middlemen.
         </p>
 
         <p>
