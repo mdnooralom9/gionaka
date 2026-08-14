@@ -175,7 +175,7 @@ const faqSections = [
     content: (
       <>
         <p>
-          Gionaka is a location-based platform that connects people looking for work with people searching for local workers. Whether you're looking for a job, hiring someone for a service, or exploring other local categories, Gionaka helps you connect with nearby people based on your location and selected category.
+          <strong>Gionaka is a location-based platform that connects people looking for work with people searching for local workers</strong>. Whether you're looking for a job, hiring someone for a service, or exploring other local categories, Gionaka helps you connect with nearby people based on your location and selected category.
 
 By showing relevant nearby results, Gionaka makes it simple to find the right person for work or hire the right local worker, all without unnecessary middlemen.
         </p>
@@ -195,7 +195,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
     content: (
       <>
         <p>
-          Anyone looking for work or searching for local workers can join Gionaka
+          <strong>Anyone looking for work or searching for local workers can join Gionaka</strong>
         </p>
 
         <p>
@@ -203,7 +203,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
         </p>
 
         <p>
-          To use Gionaka, you must meet the minimum legal working age in your country and comply with all applicable local laws and regulations.
+          To use Gionaka, you must meet the <strong>minimum legal working age in your country</strong> and comply with all applicable local laws and regulations.
         </p>
 
         <p>
@@ -219,7 +219,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
     content: (
       <>
         <p>
-          Yes. Creating an account and using Gionaka is completely free.
+          <strong>Yes</strong>. Creating an account and using Gionaka is completely free.
         </p>
 
         <p>
