@@ -245,19 +245,29 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
     content: (
       <>
         <p>
-          Sign up and choose whether you want to <strong>Find Work</strong> or{" "}
-          <strong>Hire a Worker</strong>.
+          Sign up and choose your role on the Home screen.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Find Work</strong> – Select this if you're looking for work.
+          </li>
+
+          <li>
+            <strong>Hire Locally</strong> – Select this if you're looking for a
+            worker.
+          </li>
+        </ul>
+
+        <p>
+          Next, choose a category. You'll then be taken to the Subcategory
+          page. After selecting a subcategory, Gionaka will show nearby
+          matching results.
         </p>
 
         <p>
-          Select a category and subcategory. Gionaka shows nearby workers
-          or work opportunities based on your location.
-        </p>
-
-        <p>
-          Connect directly through the app. After a successful connection,
-          users can interact through features such as <strong>Call History</strong>{" "}
-          and <strong>Likes</strong> to help build trust.
+          If you can't find what you're looking for, tap <strong>Post</strong>{" "}
+          to publish your requirement so nearby users can see it.
         </p>
       </>
     ),
@@ -290,38 +300,6 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
 
   {
     number: "6",
-    title: "How do I find work or hire a worker?",
-    content: (
-      <>
-        <p>First, choose your role on the Home screen.</p>
-
-        <ul>
-          <li>
-            <strong>Find Work</strong> – Select this if you're looking for work.
-          </li>
-
-          <li>
-            <strong>Hire Locally</strong> – Select this if you're looking for a
-            worker.
-          </li>
-        </ul>
-
-        <p>
-          Next, choose a category. You'll then be taken to the Subcategory
-          page. After selecting a subcategory, Gionaka will show nearby
-          matching results.
-        </p>
-
-        <p>
-          If you can't find what you're looking for, tap <strong>Post</strong>{" "}
-          to publish your requirement so nearby users can see it.
-        </p>
-      </>
-    ),
-  },
-
-  {
-    number: "7",
     title: "How do the Find Work and Hire Worker features work?",
     content: (
       <>
@@ -344,7 +322,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
   },
 
   {
-    number: "8",
+    number: "7",
     title: "How do I delete my account?",
     content: (
       <>
@@ -362,7 +340,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
   },
 
   {
-    number: "9",
+    number: "8",
     title: "Why can't I make calls or create posts?",
     content: (
       <>
@@ -389,7 +367,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
   },
 
   {
-    number: "10",
+    number: "9",
     title: "How do I report a fake user?",
     content: (
       <>
