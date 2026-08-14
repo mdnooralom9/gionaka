@@ -177,11 +177,11 @@ const faqSections = [
         <p>
           <strong>Gionaka is a location-based platform that connects people looking for work with people searching for local workers</strong>. Whether you're looking for a job, hiring someone for a service, or exploring other local categories, Gionaka helps you connect with nearby people based on your location and selected category.
 
-By showing relevant nearby results, Gionaka makes it simple to find the right person for work or hire the right local worker, all without unnecessary middlemen.
+          By showing relevant nearby results, Gionaka makes it simple to find the right person for work or hire the right local worker, <strong>all without unnecessary middlemen</strong>.
         </p>
 
         <p>
-          User can easily find Verified local workers based on their
+          User can easily find verified local workers based on their
           location and category, making the hiring process faster and more
           convenient.
         </p>
@@ -231,7 +231,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
         </p>
 
         <p>
-          Some premium features may be introduced in the future while the
+          Some <strong>premium features may be introduced in the future</strong> while the
           core experience remains free.
         </p>
       </>
@@ -243,31 +243,31 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
     title: "How does Gionaka work?",
     content: (
       <>
-  <p>
-    Sign up and choose your role on the Home screen.
-  </p>
+        <p>
+          Sign up and choose your role on the Home screen.
+        </p>
 
-  <ul>
-    <li>
-      <strong>Find Work</strong> – Select this if you're looking for work.
-    </li>
+        <ul>
+          <li>
+            <strong>Find Work</strong> – Select this if you're looking for work.
+          </li>
 
-    <li>
-      <strong>Hire Locally</strong> – Select this if you're searching for local workers.
-    </li>
-  </ul>
+          <li>
+            <strong>Hire Locally</strong> – Select this if you're searching for local workers.
+          </li>
+        </ul>
 
-  <p>
-    Next, choose a category and subcategory. Gionaka will display nearby
-    people based on your location and selected category.
-  </p>
+        <p>
+          Next, choose a category and subcategory. Gionaka will display nearby
+          people based on your location and selected category.
+        </p>
 
-  <p>
-    If you don't find what you're looking for, tap <strong>Post</strong> to
-    publish your requirement so nearby users can discover and connect with
-    you directly.
-  </p>
-</>
+        <p>
+          If you don't find what you're looking for, tap <strong>Post</strong> to
+          publish your requirement so nearby users can discover and connect with
+          you directly.
+        </p>
+      </>
     ),
   },
 
@@ -491,24 +491,24 @@ export default function HelpPage() {
       </header>
 
       {/* Hero */}
-<section className="border-b border-border bg-muted/30">
-  <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 md:py-20">
-    <div className="mx-auto max-w-3xl text-center">
-      <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm">
-        <HelpCircle className="h-7 w-7" />
-      </div>
+      <section className="border-b border-border bg-muted/30">
+        <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 md:py-20">
+          <div className="mx-auto max-w-3xl text-center">
+            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm">
+              <HelpCircle className="h-7 w-7" />
+            </div>
 
-      <h1 className="mt-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
-        Gionaka Help Centre
-      </h1>
+            <h1 className="mt-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
+              Gionaka Help Centre
+            </h1>
 
-      <p className="mt-5 text-base leading-7 text-muted-foreground md:text-lg">
-        Find answers to common questions, troubleshooting steps, and ways to
-        contact our support team.
-      </p>
-    </div>
-  </div>
-</section>
+            <p className="mt-5 text-base leading-7 text-muted-foreground md:text-lg">
+              Find answers to common questions, troubleshooting steps, and ways to
+              contact our support team.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Content */}
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 md:py-16">
