@@ -224,13 +224,11 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
         </p>
 
         <p>
-          Workers can register, build their profile, and search for nearby
-          work opportunities without paying any registration fee.
+          You can create your profile, browse categories, search for nearby people, and connect through the platform without paying any registration fee.
         </p>
 
         <p>
-          Customers can search for local workers and connect with them
-          directly through the platform.
+          Gionaka is designed to make it simple for people looking for work and people searching for local workers to connect based on their location and selected category.
         </p>
 
         <p>
