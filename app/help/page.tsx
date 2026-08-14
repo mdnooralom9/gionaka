@@ -172,6 +172,101 @@ const helpSections = [
 const faqSections = [
   {
     number: "1",
+    title: "What is Gionaka?",
+    content: (
+      <>
+        <p>
+          Gionaka is India's digital platform for local workers and people
+          looking to hire them. Whether you're an electrician, plumber,
+          carpenter, painter, mechanic, driver, or any other skilled worker,
+          Gionaka helps you connect with nearby work opportunities.
+        </p>
+
+        <p>
+          Customers can easily find trusted local workers based on their
+          location and category, making the hiring process faster and more
+          convenient.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    number: "2",
+    title: "Who can join Gionaka?",
+    content: (
+      <>
+        <p>
+          Anyone in India can join Gionaka.
+        </p>
+
+        <p>
+          Skilled workers such as electricians, plumbers, carpenters,
+          painters, mechanics, drivers, construction workers, house maids,
+          and many other professionals can create a profile to find work.
+        </p>
+
+        <p>
+          Individuals, homeowners, businesses, and contractors looking to
+          hire reliable local workers can also use Gionaka.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    number: "3",
+    title: "Is Gionaka free to use?",
+    content: (
+      <>
+        <p>
+          Yes. Creating an account and using Gionaka is completely free.
+        </p>
+
+        <p>
+          Workers can register, build their profile, and search for nearby
+          work opportunities without paying any registration fee.
+        </p>
+
+        <p>
+          Customers can search for local workers and connect with them
+          directly through the platform.
+        </p>
+
+        <p>
+          Some premium features may be introduced in the future while the
+          core experience remains free.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    number: "4",
+    title: "How does Gionaka work?",
+    content: (
+      <>
+        <p>
+          Sign up and choose whether you want to <strong>Find Work</strong> or{" "}
+          <strong>Hire a Worker</strong>.
+        </p>
+
+        <p>
+          Select a category and subcategory. Gionaka shows nearby workers
+          or work opportunities based on your location.
+        </p>
+
+        <p>
+          Connect directly through the app. After a successful connection,
+          users can interact through features such as <strong>Call History</strong>{" "}
+          and <strong>Likes</strong> to help build trust.
+        </p>
+      </>
+    ),
+  },
+
+  {
+    number: "5",
     title: "How do Likes work?",
     content: (
       <>
@@ -196,7 +291,7 @@ const faqSections = [
   },
 
   {
-    number: "2",
+    number: "6",
     title: "How do I find work or hire a worker?",
     content: (
       <>
@@ -206,6 +301,7 @@ const faqSections = [
           <li>
             <strong>Find Work</strong> – Select this if you're looking for work.
           </li>
+
           <li>
             <strong>Hire Worker</strong> – Select this if you're looking for a
             worker.
@@ -227,7 +323,7 @@ const faqSections = [
   },
 
   {
-    number: "3",
+    number: "7",
     title: "How do the Find Work and Hire Worker features work?",
     content: (
       <>
@@ -250,7 +346,7 @@ const faqSections = [
   },
 
   {
-    number: "4",
+    number: "8",
     title: "How do I delete my account?",
     content: (
       <>
@@ -268,7 +364,7 @@ const faqSections = [
   },
 
   {
-    number: "5",
+    number: "9",
     title: "Why can't I make calls or create posts?",
     content: (
       <>
@@ -295,7 +391,7 @@ const faqSections = [
   },
 
   {
-    number: "6",
+    number: "10",
     title: "How do I report a fake user?",
     content: (
       <>
@@ -318,7 +414,7 @@ const faqSections = [
       </>
     ),
   },
-]
+];
 
 const reportSections = [
   {
