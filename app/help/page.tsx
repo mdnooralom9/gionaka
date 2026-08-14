@@ -181,7 +181,7 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
         </p>
 
         <p>
-          User can easily find trusted local workers based on their
+          User can easily find Verified local workers based on their
           location and category, making the hiring process faster and more
           convenient.
         </p>
