@@ -244,32 +244,31 @@ By showing relevant nearby results, Gionaka makes it simple to find the right pe
     title: "How does Gionaka work?",
     content: (
       <>
-        <p>
-          Sign up and choose your role on the Home screen.
-        </p>
+  <p>
+    Sign up and choose your role on the Home screen.
+  </p>
 
-        <ul>
-          <li>
-            <strong>Find Work</strong> – Select this if you're looking for work.
-          </li>
+  <ul>
+    <li>
+      <strong>Find Work</strong> – Select this if you're looking for work.
+    </li>
 
-          <li>
-            <strong>Hire Locally</strong> – Select this if you're looking for a
-            worker.
-          </li>
-        </ul>
+    <li>
+      <strong>Hire Locally</strong> – Select this if you're searching for local workers.
+    </li>
+  </ul>
 
-        <p>
-          Next, choose a category. You'll then be taken to the Subcategory
-          page. After selecting a subcategory, Gionaka will show nearby
-          matching results.
-        </p>
+  <p>
+    Next, choose a category and subcategory. Gionaka will display nearby
+    people based on your location and selected category.
+  </p>
 
-        <p>
-          If you can't find what you're looking for, tap <strong>Post</strong>{" "}
-          to publish your requirement so nearby users can see it.
-        </p>
-      </>
+  <p>
+    If you don't find what you're looking for, tap <strong>Post</strong> to
+    publish your requirement so nearby users can discover and connect with
+    you directly.
+  </p>
+</>
     ),
   },
 
