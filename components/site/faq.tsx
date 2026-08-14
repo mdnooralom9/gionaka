@@ -10,7 +10,7 @@ export const faqs = [
   {
     question: 'What is Gionaka?',
     answer:
-      'Gionaka is a location-based platform that helps people find work, hire local professionals, and connect directly with nearby people without middlemen.',
+      'Gionaka is a location-based platform that connects people looking for work with people searching for local workers. Whether you are looking for a job, hiring someone for a service, or exploring other local categories, Gionaka helps you connect with nearby people based on your location and selected category. By showing relevant nearby results, Gionaka makes it simple to find the right person for work or hire the right local worker, all without unnecessary middlemen.',
   },
   {
     question: 'Who can use Gionaka?',
