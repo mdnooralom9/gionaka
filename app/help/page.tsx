@@ -303,7 +303,7 @@ const faqSections = [
           </li>
 
           <li>
-            <strong>Hire Worker</strong> – Select this if you're looking for a
+            <strong>Hire Locally</strong> – Select this if you're looking for a
             worker.
           </li>
         </ul>
