@@ -38,20 +38,6 @@ export function Footer() {
     >
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
 
-        <div className="mb-14 rounded-3xl border border-border bg-card p-8 text-center shadow-sm">
-
-          <h2 className="text-2xl font-bold text-foreground md:text-3xl">
-            Find Work. Hire Local. Connect Nearby.
-          </h2>
-
-          <p className="mx-auto mt-4 max-w-3xl leading-8 text-muted-foreground">
-            Gionaka is a location-based platform that helps people find work,
-            hire local professionals, and connect directly with nearby people
-            through a simple and trusted experience.
-          </p>
-
-        </div>
-
         <div className="grid gap-12 md:grid-cols-[1.7fr_1fr_1fr_1fr]">
 
           <div>
