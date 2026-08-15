@@ -68,11 +68,6 @@ export function Footer() {
                 <Mail className="h-4 w-4" />
                 support@gionaka.com
               </a>
-
-              <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                <Phone className="h-4 w-4" />
-                Available Across India
-              </div>
             </div>
           </div>
 
