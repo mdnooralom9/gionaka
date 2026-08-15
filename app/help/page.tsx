@@ -168,7 +168,7 @@ const helpSections = [
   },
 ]
 
-export const faqSections = [
+const faqSections = [
   {
     number: "1",
     title: "What is Gionaka?",
@@ -181,7 +181,7 @@ export const faqSections = [
         </p>
 
         <p>
-          Users can easily find local workers based on their
+          User can easily find verified local workers based on their
           location and category, making the hiring process faster and more
           convenient.
         </p>
@@ -307,7 +307,7 @@ export const faqSections = [
         </p>
 
         <p>
-          <strong>Hire Locally</strong> helps people looking for workers find
+          <strong>Hire Worker</strong> helps people looking for workers find
           nearby workers based on the selected category and location.
         </p>
 
@@ -589,7 +589,7 @@ export default function HelpPage() {
         </section>
 
         {/* FAQ */}
-        <section id="faq" className="mt-16">
+        <section className="mt-16">
           <div className="mb-7">
             <p className="text-sm font-semibold uppercase tracking-wider text-primary">
               Frequently Asked Questions
