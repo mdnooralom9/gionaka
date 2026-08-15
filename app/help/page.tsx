@@ -168,7 +168,7 @@ const helpSections = [
   },
 ]
 
-const faqSections = [
+export const faqSections = [
   {
     number: "1",
     title: "What is Gionaka?",
