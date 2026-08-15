@@ -97,7 +97,7 @@ export function Faq() {
 
       <div className="mt-8 flex justify-center">
         <Link
-          href="/help"
+          href="/help#faq"
           className="inline-flex items-center justify-center rounded-full border border-primary px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
         >
           View all FAQs

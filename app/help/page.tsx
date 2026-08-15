@@ -589,7 +589,7 @@ export default function HelpPage() {
         </section>
 
         {/* FAQ */}
-        <section className="mt-16">
+        <section id="faq" className="mt-16">
           <div className="mb-7">
             <p className="text-sm font-semibold uppercase tracking-wider text-primary">
               Frequently Asked Questions
