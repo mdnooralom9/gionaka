@@ -198,6 +198,15 @@ const sections = [
     "No online service can guarantee complete security. If Gionaka becomes aware of a personal data breach, we will take appropriate steps to address the incident and provide notifications where required by applicable law.",
   ],
 ],
+[
+  "19. Age Requirement",
+   [ ],
+  [
+    "Gionaka is intended for individuals who are 18 years of age or older.",
+    "Gionaka does not currently collect date of birth during account registration and therefore does not independently verify your age through a date-of-birth field.",
+    "If you are under 18, you should not create or use a Gionaka account.",
+  ],
+],
   ['20. Your Privacy Rights', ['Subject to applicable law, you may request information, correction, completion or updating, erasure, withdrawal of consent, raise a privacy grievance, and exercise other available rights. To exercise a privacy right or raise a concern, contact Privacy Team at PrivacyPolicy@gionaka.com. We may verify your identity before processing a request.'], []],
   ['21. Withdrawal of Consent', ['Where Gionaka processes personal data based on consent, you may withdraw that consent subject to law by contacting PrivacyPolicy@gionaka.com. Withdrawal does not affect lawful processing that occurred before withdrawal. Processing may continue under another lawful basis where permitted.'], []],
   ['22. Grievance Redressal', ['For concerns about how Gionaka handles personal data, contact PrivacyPolicy@gionaka.com with enough information to understand and investigate your concern. Gionaka will respond within the period required by applicable law.'], []],
