@@ -106,9 +106,7 @@ const sections = [
   "8. Favorites",
   [ ],
   [
-  "8. Favorites",
-  [
-    "Gionaka provides a Favorite feature that allows users to express a Favorite for another user after a call-related connection.",
+      "Gionaka provides a Favorite feature that allows users to express a Favorite for another user after a call-related connection.",
     "The Favorite action increases the Favorite count associated with the relevant user. Gionaka does not provide a separate Favorite list showing which users have been favorited.",
     "Gionaka does not disclose which user added a Favorite to another user.",
   ],
