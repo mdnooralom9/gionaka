@@ -224,7 +224,14 @@ const sections = [
     "Withdrawing consent does not affect the lawfulness of processing that took place before the withdrawal.",
   ],
 ],
-  ['22. Grievance Redressal', ['For concerns about how Gionaka handles personal data, contact PrivacyPolicy@gionaka.com with enough information to understand and investigate your concern. Gionaka will respond within the period required by applicable law.'], []],
+  [
+  "22. Grievance Redressal",
+   [ ],
+  [
+    "If you have a concern or complaint about how Gionaka handles your personal data or privacy rights, you can contact us at PrivacyPolicy@gionaka.com.",
+    "Please provide enough information for us to understand and review your concern. Gionaka will respond to grievances within the period required by applicable law, and in any event within 90 days where the applicable requirements prescribe that period.",
+  ],
+],
   ['23. Third-Party Services', ['Gionaka may use third-party services for authentication, cloud infrastructure and storage, analytics, advertising, technical, and security services. Providers may process information under their own terms and privacy policies. Gionaka does not control practices outside its control.'], []],
   ['24. Changes to This Privacy Policy', ['Gionaka may update this Privacy Policy when features, data practices, third-party services, legal requirements, or privacy practices change. The Effective Date indicates when the current version became effective. Where a change materially affects processing, Gionaka will provide notices required by law. We encourage users to review this Privacy Policy periodically.'], []],
   ['25. Contact Gionaka', ['For privacy questions, privacy requests, or data-related concerns:', 'Gionaka Privacy Team — PrivacyPolicy@gionaka.com', 'For general app support: Gionaka Support — support@gionaka.com', 'Website: gionaka.com'], []],
