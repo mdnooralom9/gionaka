@@ -78,7 +78,6 @@ const sections = [
     "City or relevant area",
     "Post date",
     "Favorite count",
-    "Call option",
     "Incoming or outgoing indication in Call History",
   ],
   [
