@@ -155,7 +155,15 @@ const sections = [
     "The Website does not currently provide Gionaka account registration or login. Main account and platform functionality is provided through the Gionaka mobile App.",
   ],
 ],
-  ['14. Cookies and Similar Technologies', ['The Website may use technologies necessary for proper operation. Gionaka does not currently intend to use Website cookies beyond necessary operation unless functionality changes. Third-party services may have their own technologies and privacy practices.'], []],
+[
+  "14. Cookies and Similar Technologies",
+   [ ],
+  [
+    "The Gionaka Website does not currently use cookies or similar technologies for its own advertising or analytics purposes.",
+    "Certain cookies or similar technologies may be used when necessary for the technical operation, security, or functionality of the Website.",
+    "Third-party services used by the Website may have their own cookies or similar technologies and privacy practices.",
+  ],
+],
   ['15. How We Share Personal Data', ['Gionaka does not sell your personal data. Personal data may be processed by service providers supporting authentication, data storage, analytics, advertising, technical infrastructure, security, and platform operations.', 'Gionaka may disclose personal data where reasonably necessary to comply with law, respond to lawful requests, prevent fraud or security threats, protect users, protect Gionaka rights or property, enforce terms, or defend legal claims.'], []],
   ['16. Data Retention', ['Gionaka retains personal data only as long as reasonably necessary for the purposes for which it is processed, or as required or permitted by law. Different information may be retained for different periods. After deletion or when information is no longer necessary, Gionaka will take appropriate steps to erase or dispose of it subject to lawful retention requirements. Gionaka will not retain personal data indefinitely merely because an account has been deleted.'], []],
   ['17. Account Deletion', ['You can request deletion through the App. The current path is: Settings → Legal & Privacy → Account Deletion Policy. Deletion may remove personal information subject to information Gionaka is required or permitted to retain for law, security, fraud prevention, dispute resolution, or legal rights.'], []],
