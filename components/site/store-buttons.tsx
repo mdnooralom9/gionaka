@@ -27,7 +27,7 @@ function AppleIcon({ className }: { className?: string }) {
 
 function getDownloadUrl() {
   if (typeof navigator === 'undefined') return PLAY_STORE_URL
-  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream
+  return /iPad|iPhone|iPod/.test(navigator.userAgent)
     ? APP_STORE_URL
     : PLAY_STORE_URL
 }
