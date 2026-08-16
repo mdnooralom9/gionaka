@@ -164,7 +164,14 @@ const sections = [
     "Third-party services used by the Website may have their own cookies or similar technologies and privacy practices.",
   ],
 ],
-  ['15. How We Share Personal Data', ['Gionaka does not sell your personal data. Personal data may be processed by service providers supporting authentication, data storage, analytics, advertising, technical infrastructure, security, and platform operations.', 'Gionaka may disclose personal data where reasonably necessary to comply with law, respond to lawful requests, prevent fraud or security threats, protect users, protect Gionaka rights or property, enforce terms, or defend legal claims.'], []],
+  [
+  "15. How We Share Personal Data",
+   [ ],
+  [
+    "Gionaka does not sell your personal data. Personal data may be processed by service providers that support Gionaka's authentication, data storage, analytics, advertising, and other necessary services.",
+    "Gionaka may also disclose personal data when reasonably necessary to comply with applicable law, respond to lawful requests, prevent fraud or security threats, protect users or Gionaka, or establish, exercise, or defend legal claims.",
+  ],
+],
   ['16. Data Retention', ['Gionaka retains personal data only as long as reasonably necessary for the purposes for which it is processed, or as required or permitted by law. Different information may be retained for different periods. After deletion or when information is no longer necessary, Gionaka will take appropriate steps to erase or dispose of it subject to lawful retention requirements. Gionaka will not retain personal data indefinitely merely because an account has been deleted.'], []],
   ['17. Account Deletion', ['You can request deletion through the App. The current path is: Settings → Legal & Privacy → Account Deletion Policy. Deletion may remove personal information subject to information Gionaka is required or permitted to retain for law, security, fraud prevention, dispute resolution, or legal rights.'], []],
   ['18. Data Security and Personal Data Breaches', ['Gionaka takes reasonable technical and organisational measures designed to protect personal data against unauthorized access, misuse, alteration, disclosure, loss, or destruction. No online service can guarantee absolute security. If Gionaka becomes aware of a breach, it will take appropriate steps to contain, investigate, address, and remediate it and provide notices where required by law.'], []],
