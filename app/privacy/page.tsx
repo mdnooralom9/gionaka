@@ -111,7 +111,21 @@ const sections = [
     "Gionaka does not disclose which user added a Favorite to another user.",
   ],
 ],
-  ['9. Reports and Platform Safety', ['Gionaka provides reporting functionality for potentially inappropriate or suspicious activity. Reports may be reviewed for platform safety, abuse prevention, spam prevention, fraud prevention, and enforcement of Gionaka rules. Depending on the circumstances, Gionaka may restrict, suspend, or disable an account. Gionaka does not guarantee that every report will result in a particular action.'], ['Abuse', 'Spam', 'Other', 'Additional information provided by the reporting user']],
+  [
+  "9. Reports and Platform Safety",
+  [
+    "Gionaka provides a reporting feature that allows users to report potentially inappropriate or suspicious activity.",
+    "When you submit a report, Gionaka may collect the report category and any additional information or description you choose to provide.",
+    "Reports may be reviewed and used to help maintain platform safety, prevent abuse and spam, investigate potential misuse, and protect users.",
+    "Information about a report may be handled confidentially and is not intentionally disclosed to the user being reported, except where disclosure is required or permitted by applicable law.",
+  ],
+  [
+    "Abuse",
+    "Spam",
+    "Other",
+    "Additional information or description provided by you",
+  ],
+],
  [
   "10. Advertising and AdMob",
  [ ],
