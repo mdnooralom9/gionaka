@@ -207,7 +207,15 @@ const sections = [
     "If you are under 18, you should not create or use a Gionaka account.",
   ],
 ],
-  ['20. Your Privacy Rights', ['Subject to applicable law, you may request information, correction, completion or updating, erasure, withdrawal of consent, raise a privacy grievance, and exercise other available rights. To exercise a privacy right or raise a concern, contact Privacy Team at PrivacyPolicy@gionaka.com. We may verify your identity before processing a request.'], []],
+  [
+  "20. Your Privacy Rights",
+   [ ],
+  [
+    "Subject to applicable law, you may have the right to request information about your personal data, request correction or updating of inaccurate information, request erasure where applicable, withdraw consent where processing is based on consent, and exercise other rights available to you under applicable law.",
+    "To exercise an applicable privacy right, contact us at PrivacyPolicy@gionaka.com.",
+    "We may take reasonable steps to verify your identity before processing a request relating to your personal data.",
+  ],
+],
   ['21. Withdrawal of Consent', ['Where Gionaka processes personal data based on consent, you may withdraw that consent subject to law by contacting PrivacyPolicy@gionaka.com. Withdrawal does not affect lawful processing that occurred before withdrawal. Processing may continue under another lawful basis where permitted.'], []],
   ['22. Grievance Redressal', ['For concerns about how Gionaka handles personal data, contact PrivacyPolicy@gionaka.com with enough information to understand and investigate your concern. Gionaka will respond within the period required by applicable law.'], []],
   ['23. Third-Party Services', ['Gionaka may use third-party services for authentication, cloud infrastructure and storage, analytics, advertising, technical, and security services. Providers may process information under their own terms and privacy policies. Gionaka does not control practices outside its control.'], []],
