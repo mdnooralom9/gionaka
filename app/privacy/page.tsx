@@ -56,8 +56,7 @@ const sections = [
 ],
   [
   "4. Location Information",
-  [
-  ],
+  [ ],
   [
     "Location is an important part of Gionaka's local-search functionality. Gionaka may use your current or manually selected location to find relevant nearby results, determine a relevant nearby city or area, and support Find Work and Hire Locally.",
     "Your exact latitude and longitude are not publicly displayed to other users. Other users may receive limited location-related information, such as a relevant city or area, as part of the service.",
@@ -87,14 +86,22 @@ const sections = [
 ],
  [
   "6. Find Work and Hire Locally",
-  [
-  ],
+  [ ],
   [
     "Gionaka provides features that allow users to look for nearby work or search for local workers based on their selected role, category, subcategory, and location.",
     "Gionaka is a platform that helps users connect with each other. We do not guarantee employment, a particular worker, a particular job, or any specific outcome from using the platform.",
   ],
 ],
-  ['7. Calls and Call History', ['Gionaka provides a Call feature that allows users to contact another user through the device\'s phone functionality. Gionaka does not record phone conversations, store call audio, listen to conversations, or store their contents.', 'Gionaka may process limited call-related information so relevant activity can appear in Call History.'], ['Gender', 'Last three digits of the mobile number', 'Category and subcategory', 'Location-related information', 'Incoming or outgoing indication', 'Call functionality']],
+  [
+  "7. Calls and Call History",
+  [ ],
+  [
+    "Gionaka provides a Call feature that allows users to contact another user through the device's normal phone-calling functionality.",
+    "Gionaka does not record phone conversations, store call audio, listen to conversations, or store the contents of phone calls.",
+    "When the Call feature is used, limited call activity may appear in Call History, including whether the activity was incoming or outgoing.",
+    "If you publish a post and another user selects the Call button on your post, your phone number may be disclosed to that user through the normal phone-calling process.",
+  ],
+],
   ['8. Favorites', ['Gionaka provides a Favorite feature that allows users to mark relevant users or connections. Favorite activity may be associated with your account and a Favorite count may be displayed. The person you have favorited is not notified that you personally added them. Your individual Favorite activity is not publicly disclosed as your personal action.'], []],
   ['9. Reports and Platform Safety', ['Gionaka provides reporting functionality for potentially inappropriate or suspicious activity. Reports may be reviewed for platform safety, abuse prevention, spam prevention, fraud prevention, and enforcement of Gionaka rules. Depending on the circumstances, Gionaka may restrict, suspend, or disable an account. Gionaka does not guarantee that every report will result in a particular action.'], ['Abuse', 'Spam', 'Other', 'Additional information provided by the reporting user']],
   ['10. Advertising and AdMob', ['Gionaka may display advertisements through third-party services, including Google AdMob. Advertising services may process device information, advertising identifiers, app information, ad interactions, and technical or advertising information for providing and measuring advertisements and preventing invalid activity. Advertising personalization depends on applicable settings, choices, and legal requirements. Gionaka does not sell your personal data as a business practice.'], []],
