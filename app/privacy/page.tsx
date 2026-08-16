@@ -112,7 +112,17 @@ const sections = [
   ],
 ],
   ['9. Reports and Platform Safety', ['Gionaka provides reporting functionality for potentially inappropriate or suspicious activity. Reports may be reviewed for platform safety, abuse prevention, spam prevention, fraud prevention, and enforcement of Gionaka rules. Depending on the circumstances, Gionaka may restrict, suspend, or disable an account. Gionaka does not guarantee that every report will result in a particular action.'], ['Abuse', 'Spam', 'Other', 'Additional information provided by the reporting user']],
-  ['10. Advertising and AdMob', ['Gionaka may display advertisements through third-party services, including Google AdMob. Advertising services may process device information, advertising identifiers, app information, ad interactions, and technical or advertising information for providing and measuring advertisements and preventing invalid activity. Advertising personalization depends on applicable settings, choices, and legal requirements. Gionaka does not sell your personal data as a business practice.'], []],
+ [
+  "10. Advertising and AdMob",
+ [ ],
+  [
+    "Gionaka uses Google AdMob to display advertisements in the App.",
+    "AdMob and its advertising partners may process certain device, app, advertising, and usage-related information to provide, measure, and improve advertisements and help prevent invalid or fraudulent activity.",
+    "Depending on your device settings, applicable law, and your privacy choices, advertising may be personalized or non-personalized.",
+    "Advertising-related information may include advertising identifiers and other technical information used for advertising and measurement.",
+    "Gionaka does not sell your personal data as a business practice.",
+  ],
+],
   ['11. Analytics and Service Improvement', ['Gionaka may use analytics services to understand how users interact with the App and improve reliability, functionality, and user experience. Analytics may help understand feature use, performance, errors, technical problems, and general usage patterns.'], []],
   ['12. Device Permissions', ['Gionaka may request permissions when required for a feature. Location is used for nearby functionality. Calling or phone functionality is used to initiate calls through your device. You can manage permissions through device settings; disabling a required permission may prevent a feature from working correctly.'], []],
   ['13. Website Privacy', ['The Gionaka Website primarily provides information about Gionaka, app download access, Help Centre resources, Privacy Policy, Terms & Conditions, and support information. The Website does not currently provide account registration or login. Main account and platform functionality is provided through the mobile App.'], []],
