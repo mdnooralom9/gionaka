@@ -102,7 +102,17 @@ const sections = [
     "If you publish a post and another user selects the Call button on your post, your phone number may be disclosed to that user through the normal phone-calling process.",
   ],
 ],
-  ['8. Favorites', ['Gionaka provides a Favorite feature that allows users to mark relevant users or connections. Favorite activity may be associated with your account and a Favorite count may be displayed. The person you have favorited is not notified that you personally added them. Your individual Favorite activity is not publicly disclosed as your personal action.'], []],
+ [
+  "8. Favorites",
+  [ ],
+  [
+  "8. Favorites",
+  [
+    "Gionaka provides a Favorite feature that allows users to express a Favorite for another user after a call-related connection.",
+    "The Favorite action increases the Favorite count associated with the relevant user. Gionaka does not provide a separate Favorite list showing which users have been favorited.",
+    "Gionaka does not disclose which user added a Favorite to another user.",
+  ],
+],
   ['9. Reports and Platform Safety', ['Gionaka provides reporting functionality for potentially inappropriate or suspicious activity. Reports may be reviewed for platform safety, abuse prevention, spam prevention, fraud prevention, and enforcement of Gionaka rules. Depending on the circumstances, Gionaka may restrict, suspend, or disable an account. Gionaka does not guarantee that every report will result in a particular action.'], ['Abuse', 'Spam', 'Other', 'Additional information provided by the reporting user']],
   ['10. Advertising and AdMob', ['Gionaka may display advertisements through third-party services, including Google AdMob. Advertising services may process device information, advertising identifiers, app information, ad interactions, and technical or advertising information for providing and measuring advertisements and preventing invalid activity. Advertising personalization depends on applicable settings, choices, and legal requirements. Gionaka does not sell your personal data as a business practice.'], []],
   ['11. Analytics and Service Improvement', ['Gionaka may use analytics services to understand how users interact with the App and improve reliability, functionality, and user experience. Analytics may help understand feature use, performance, errors, technical problems, and general usage patterns.'], []],
