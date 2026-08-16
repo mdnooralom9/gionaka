@@ -5,53 +5,341 @@ import { Footer } from '@/components/site/footer'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Gionaka',
-  description: "Read Gionaka's Privacy Policy to understand how personal data is collected, used, protected, and managed across the Gionaka app and website.",
+  description:
+    "Read Gionaka's Privacy Policy to understand how personal data is collected, used, protected, and managed across the Gionaka app and website.",
   alternates: { canonical: 'https://gionaka.com/privacy' },
 }
 
 const sections = [
-  ['1. Information We Collect', ['Gionaka collects only the information that is reasonably needed to provide and operate its services.', 'Depending on how you use Gionaka, this may include:'], ['Mobile number', 'Country code', 'Gender', 'OTP-related authentication information', 'Latitude and longitude', 'A location selected manually by you', 'Find Work and Hire Locally activity', 'Category and subcategory selections', 'Location selection', 'Call activity, Call History, Favorites, Reports, and account deletion requests']],
-  ['2. Mobile Number and OTP', ["Your mobile number is used as part of Gionaka's account authentication and account-management system.", 'When you register or log in, you provide your mobile number and country code and receive an OTP for authentication.', 'Gionaka uses the OTP to help verify access to the mobile number associated with the account. Gionaka does not use a traditional password-based login system.', 'Your complete mobile number is not publicly displayed to other users. For certain features, only the last three digits may be displayed as limited identifying information.', 'You should never share your OTP with another person. Gionaka will not ask you to provide your OTP to another user.'], []],
-  ['3. How Gionaka Uses Your Personal Data', ['Gionaka may use personal data to create and manage your account, authenticate your account, provide Find Work and Hire Locally features, provide relevant nearby results, process selections, support location-based functionality, facilitate calls, maintain Call History and Favorites, process reports, prevent spam, abuse, fraud, and misuse, maintain security, improve Gionaka, provide and measure advertising, comply with legal obligations, and protect the rights and safety of Gionaka and its users.'], []],
-  ['4. Location Information', ['Location is an important part of Gionaka\'s local-search functionality. Gionaka may use your location to find relevant nearby results, determine a relevant nearby city or area, support Find Work and Hire Locally, and improve location-based results.', 'You may manually select a location where the relevant feature allows you to do so. Your exact latitude and longitude are not publicly displayed to other users. Other users may receive location-related information such as a relevant city or area. Gionaka does not use your location to continuously track your movements in the background for ordinary use.'], []],
-  ['5. Information Visible to Other Users', ['Gionaka is designed to connect users for relevant local work and hiring opportunities. When necessary for a particular feature, limited information may be shown to another user.'], ['Gender', 'Last three digits of a mobile number', 'Category and subcategory', 'Location-related information', 'Favorite count', 'Call-related functionality', 'Information associated with a relevant activity or listing']],
-  ['6. Find Work and Hire Locally', ['Gionaka provides location-based features that help users look for nearby work opportunities, find nearby local workers, select categories and subcategories, search using nearby or manually selected locations, and connect with relevant users.', 'The information processed through these features is used to provide relevant results and facilitate connections. Gionaka does not guarantee employment, a particular worker, a particular job, or a particular outcome.'], []],
-  ['7. Calls and Call History', ['Gionaka provides a Call feature that allows users to contact another user through the device\'s phone functionality. Gionaka does not record phone conversations, store call audio, listen to conversations, or store their contents.', 'Gionaka may process limited call-related information so relevant activity can appear in Call History.'], ['Gender', 'Last three digits of the mobile number', 'Category and subcategory', 'Location-related information', 'Incoming or outgoing indication', 'Call functionality']],
-  ['8. Favorites', ['Gionaka provides a Favorite feature that allows users to mark relevant users or connections. Favorite activity may be associated with your account and a Favorite count may be displayed. The person you have favorited is not notified that you personally added them. Your individual Favorite activity is not publicly disclosed as your personal action.'], []],
-  ['9. Reports and Platform Safety', ['Gionaka provides reporting functionality for potentially inappropriate or suspicious activity. Reports may be reviewed for platform safety, abuse prevention, spam prevention, fraud prevention, and enforcement of Gionaka rules. Depending on the circumstances, Gionaka may restrict, suspend, or disable an account. Gionaka does not guarantee that every report will result in a particular action.'], ['Abuse', 'Spam', 'Other', 'Additional information provided by the reporting user']],
-  ['10. Advertising and AdMob', ['Gionaka may display advertisements through third-party services, including Google AdMob. Advertising services may process device information, advertising identifiers, app information, ad interactions, and technical or advertising information for providing and measuring advertisements and preventing invalid activity. Advertising personalization depends on applicable settings, choices, and legal requirements. Gionaka does not sell your personal data as a business practice.'], []],
-  ['11. Analytics and Service Improvement', ['Gionaka may use analytics services to understand how users interact with the App and improve reliability, functionality, and user experience. Analytics may help understand feature use, performance, errors, technical problems, and general usage patterns.'], []],
-  ['12. Device Permissions', ['Gionaka may request permissions when required for a feature. Location is used for nearby functionality. Calling or phone functionality is used to initiate calls through your device. You can manage permissions through device settings; disabling a required permission may prevent a feature from working correctly.'], []],
-  ['13. Website Privacy', ['The Gionaka Website primarily provides information about Gionaka, app download access, Help Centre resources, Privacy Policy, Terms & Conditions, and support information. The Website does not currently provide account registration or login. Main account and platform functionality is provided through the mobile App.'], []],
-  ['14. Cookies and Similar Technologies', ['The Website may use technologies necessary for proper operation. Gionaka does not currently intend to use Website cookies beyond necessary operation unless functionality changes. Third-party services may have their own technologies and privacy practices.'], []],
-  ['15. How We Share Personal Data', ['Gionaka does not sell your personal data. Personal data may be processed by service providers supporting authentication, data storage, analytics, advertising, technical infrastructure, security, and platform operations.', 'Gionaka may disclose personal data where reasonably necessary to comply with law, respond to lawful requests, prevent fraud or security threats, protect users, protect Gionaka rights or property, enforce terms, or defend legal claims.'], []],
-  ['16. Data Retention', ['Gionaka retains personal data only as long as reasonably necessary for the purposes for which it is processed, or as required or permitted by law. Different information may be retained for different periods. After deletion or when information is no longer necessary, Gionaka will take appropriate steps to erase or dispose of it subject to lawful retention requirements. Gionaka will not retain personal data indefinitely merely because an account has been deleted.'], []],
-  ['17. Account Deletion', ['You can request deletion through the App. The current path is: Settings → Legal & Privacy → Account Deletion Policy. Deletion may remove personal information subject to information Gionaka is required or permitted to retain for law, security, fraud prevention, dispute resolution, or legal rights.'], []],
-  ['18. Data Security and Personal Data Breaches', ['Gionaka takes reasonable technical and organisational measures designed to protect personal data against unauthorized access, misuse, alteration, disclosure, loss, or destruction. No online service can guarantee absolute security. If Gionaka becomes aware of a breach, it will take appropriate steps to contain, investigate, address, and remediate it and provide notices where required by law.'], []],
-  ['19. Age Requirement', ['Gionaka is intended for individuals 18 years of age or older and does not currently collect date of birth as part of ordinary registration. If you are under 18, you should not create or use a Gionaka account.'], []],
-  ['20. Your Privacy Rights', ['Subject to applicable law, you may request information, correction, completion or updating, erasure, withdrawal of consent, raise a privacy grievance, and exercise other available rights. To exercise a privacy right or raise a concern, contact Privacy Team at PrivacyPolicy@gionaka.com. We may verify your identity before processing a request.'], []],
-  ['21. Withdrawal of Consent', ['Where Gionaka processes personal data based on consent, you may withdraw that consent subject to law by contacting PrivacyPolicy@gionaka.com. Withdrawal does not affect lawful processing that occurred before withdrawal. Processing may continue under another lawful basis where permitted.'], []],
-  ['22. Grievance Redressal', ['For concerns about how Gionaka handles personal data, contact PrivacyPolicy@gionaka.com with enough information to understand and investigate your concern. Gionaka will respond within the period required by applicable law.'], []],
-  ['23. Third-Party Services', ['Gionaka may use third-party services for authentication, cloud infrastructure and storage, analytics, advertising, technical, and security services. Providers may process information under their own terms and privacy policies. Gionaka does not control practices outside its control.'], []],
-  ['24. Changes to This Privacy Policy', ['Gionaka may update this Privacy Policy when features, data practices, third-party services, legal requirements, or privacy practices change. The Effective Date indicates when the current version became effective. Where a change materially affects processing, Gionaka will provide notices required by law. We encourage users to review this Privacy Policy periodically.'], []],
-  ['25. Contact Gionaka', ['For privacy questions, privacy requests, or data-related concerns:', 'Gionaka Privacy Team — PrivacyPolicy@gionaka.com', 'For general app support: Gionaka Support — support@gionaka.com', 'Website: gionaka.com'], []],
+  [
+    "1. Information We Collect",
+    [
+      "Gionaka collects only the information reasonably needed to provide, operate, and improve its services.",
+      "Depending on how you use Gionaka, we may collect the following information:",
+    ],
+    [
+      "Mobile number and country code — used to create and access your Gionaka account.",
+      "Gender — used as part of your Gionaka account and may be displayed in your posts and Call History.",
+      "Location information — Gionaka uses your current or manually selected location to determine your nearby area and provide relevant local results. This helps connect you with nearby work opportunities or local workers based on your selected location.",
+      "Role selection — you may choose Find Work when you are looking for work or Hire Locally when you are looking for a local worker. Gionaka uses this selection to provide the relevant experience and results for your chosen purpose.",
+      "Category and subcategory — you select a category and subcategory to indicate the type of work or service you are looking for. This helps Gionaka provide more relevant nearby results.",
+      "Activity information — such as Call History, Favorites, reports submitted by you, and other actions you take while using Gionaka.",
+    ],
+  ],
+
+  [
+    "2. Mobile Number and OTP",
+    [
+      "Your mobile number is used to create, access, and manage your Gionaka account.",
+      "When you register or log in, you provide your mobile number and country code and receive a one-time password (OTP) for authentication.",
+      "Gionaka uses the OTP to help verify access to the mobile number associated with your account. Gionaka does not use a traditional password-based login system.",
+      "Your complete mobile number is not displayed as a public profile field on Gionaka. However, when you choose to publish a post, another user who selects the Call button on that post may be able to access your phone number through the normal phone-calling process.",
+      "For certain features, only the last three digits of your mobile number may be displayed as limited identifying information.",
+      "You should never share your OTP with another person. Gionaka will not ask you to provide your OTP to another user.",
+    ],
+    [],
+  ],
+
+  [
+    "3. How Gionaka Uses Your Personal Data",
+    [
+      "Gionaka uses your personal data for the following purposes:",
+    ],
+    [
+      "To create, authenticate, and manage your Gionaka account.",
+      "To provide Find Work, Hire Locally, and other location-based features.",
+      "To show relevant results based on your selected location, role, category, and subcategory.",
+      "To enable calls, Call History, Favorites, reports, and related platform features.",
+      "To maintain the security, reliability, and proper functioning of Gionaka.",
+      "To understand general app usage and improve the service through analytics.",
+      "To provide and measure advertising through applicable advertising services.",
+      "To help prevent spam, abuse, fraud, and misuse.",
+      "To comply with applicable laws and respond to lawful requests.",
+    ],
+  ],
+
+  [
+    "4. Location Information",
+    [],
+    [
+      "Location is an important part of Gionaka's local-search functionality. Gionaka may use your current or manually selected location to find relevant nearby results, determine a relevant nearby city or area, and support Find Work and Hire Locally.",
+      "Your exact latitude and longitude are not publicly displayed to other users. Other users may receive limited location-related information, such as a relevant city or area, as part of the service.",
+      "Gionaka does not continuously track your location in the background for ordinary use of the service.",
+    ],
+  ],
+
+  [
+    "5. Information Visible to Other Users",
+    [
+      "Gionaka is designed to help users connect for relevant local work and hiring opportunities. Depending on the feature you use, certain limited information may be visible to other users.",
+    ],
+    [
+      "Gender",
+      "Last three digits of your mobile number",
+      "Selected role, such as Find Work or Hire Locally",
+      "Category and subcategory",
+      "City or relevant area",
+      "Post date",
+      "Favorite count",
+    ],
+  ],
+
+  [
+    "6. Find Work and Hire Locally",
+    [],
+    [
+      "Gionaka provides features that allow users to look for nearby work or search for local workers based on their selected role, category, subcategory, and location.",
+      "Gionaka is a platform that helps users connect with each other. We do not guarantee employment, a particular worker, a particular job, or any specific outcome from using the platform.",
+    ],
+  ],
+
+  [
+    "7. Calls and Call History",
+    [],
+    [
+      "Gionaka provides a Call feature that allows users to contact another user through the device's normal phone-calling functionality.",
+      "Gionaka does not record phone conversations, store call audio, listen to conversations, or store the contents of phone calls.",
+      "When the Call feature is used, limited call activity may appear in Call History, including whether the activity was incoming or outgoing.",
+      "If you publish a post and another user selects the Call button on your post, your phone number may be disclosed to that user through the normal phone-calling process.",
+    ],
+  ],
+
+  [
+    "8. Favorites",
+    [],
+    [
+      "Gionaka provides a Favorite feature that allows users to express a Favorite for another user after a call-related connection.",
+      "The Favorite action increases the Favorite count associated with the relevant user. Gionaka does not provide a separate Favorite list showing which users have been favorited.",
+      "Gionaka does not disclose which user added a Favorite to another user.",
+    ],
+  ],
+
+  [
+    "9. Reports and Platform Safety",
+    [
+      "Gionaka provides a reporting feature that allows users to report potentially inappropriate or suspicious activity.",
+      "When you submit a report, Gionaka may collect the report category and any additional information or description you choose to provide.",
+      "Reports may be reviewed and used to help maintain platform safety, prevent abuse and spam, investigate potential misuse, and protect users.",
+      "Information about a report may be handled confidentially and is not intentionally disclosed to the user being reported, except where disclosure is required or permitted by applicable law.",
+    ],
+    [
+      "Abuse",
+      "Spam",
+      "Other",
+      "Additional information or description provided by you",
+    ],
+  ],
+
+  [
+    "10. Advertising and AdMob",
+    [],
+    [
+      "Gionaka uses Google AdMob to display advertisements in the App.",
+      "AdMob and its advertising partners may process certain device, app, advertising, and usage-related information to provide, measure, and improve advertisements and help prevent invalid or fraudulent activity.",
+      "Depending on your device settings, applicable law, and your privacy choices, advertising may be personalized or non-personalized.",
+      "Advertising-related information may include advertising identifiers and other technical information used for advertising and measurement.",
+      "Gionaka does not sell your personal data as a business practice.",
+    ],
+  ],
+
+  [
+    "11. Analytics and Service Improvement",
+    [
+      "Gionaka may use analytics services to understand how users interact with the App and improve reliability, functionality, and user experience.",
+      "Analytics may help Gionaka understand feature use, performance, errors, technical problems, and general usage patterns.",
+    ],
+    [],
+  ],
+
+  [
+    "12. Device Permissions",
+    [],
+    [
+      "Gionaka may request access to device features when a permission is needed for a specific feature of the App.",
+      "You can manage the permissions available to Gionaka through your device settings.",
+    ],
+  ],
+
+  [
+    "13. Website Privacy",
+    [],
+    [
+      "The Gionaka Website primarily provides information about Gionaka, app download access, support resources, and legal information.",
+      "The Website does not currently provide Gionaka account registration or login. Main account and platform functionality is provided through the Gionaka mobile App.",
+      "The Gionaka Website does not currently use cookies or similar technologies for its own advertising or analytics purposes.",
+    ],
+  ],
+
+  [
+    "14. How We Share Personal Data",
+    [],
+    [
+      "Gionaka does not sell your personal data. Personal data may be processed by service providers that support Gionaka's authentication, data storage, analytics, advertising, and other necessary services.",
+      "Gionaka may also disclose personal data when reasonably necessary to comply with applicable law, respond to lawful requests, prevent fraud or security threats, protect users or Gionaka, or establish, exercise, or defend legal claims.",
+    ],
+  ],
+
+  [
+    "15. Data Retention",
+    [],
+    [
+      "Gionaka retains personal data only for as long as reasonably necessary to provide the services for which it is processed, or as required or permitted by applicable law.",
+      "Different types of information may be retained for different periods depending on their purpose and applicable requirements.",
+      "When personal data is no longer required for its specified purpose, Gionaka will take appropriate steps to erase or otherwise dispose of it, subject to lawful retention requirements.",
+    ],
+  ],
+
+  [
+    "16. Account Deletion",
+    [],
+    [
+      "You can delete your Gionaka account through the account deletion option available in the App.",
+      "The current account-deletion path is: Settings → Legal & Privacy → Account Deletion Policy.",
+      "Deleting your account will result in the removal of personal data associated with your account, subject to information that Gionaka is required or permitted to retain under applicable law or for legitimate purposes such as security, fraud prevention, dispute resolution, or legal claims.",
+    ],
+  ],
+
+  [
+    "17. Data Security and Personal Data Breaches",
+    [],
+    [
+      "Gionaka takes reasonable measures to protect personal data against unauthorized access, misuse, alteration, disclosure, loss, or destruction.",
+      "No online service can guarantee complete security. If Gionaka becomes aware of a personal data breach, we will take appropriate steps to address the incident and provide notifications where required by applicable law.",
+    ],
+  ],
+
+  [
+    "18. Age Requirement",
+    [],
+    [
+      "Gionaka is intended for individuals who are 18 years of age or older.",
+      "Gionaka does not currently collect date of birth during account registration and therefore does not independently verify your age through a date-of-birth field.",
+      "If you are under 18, you should not create or use a Gionaka account.",
+    ],
+  ],
+
+  [
+    "19. Your Privacy Rights",
+    [],
+    [
+      "Subject to applicable law, you may have the right to request information about your personal data, request correction or updating of inaccurate information, request erasure where applicable, withdraw consent where processing is based on consent, and exercise other rights available to you under applicable law.",
+      "You may also have the right to nominate another individual to exercise your rights in the event of your death or incapacity, as permitted by applicable law.",
+      "To exercise an applicable privacy right, contact us at PrivacyPolicy@gionaka.com.",
+      "We may take reasonable steps to verify your identity before processing a request relating to your personal data.",
+    ],
+  ],
+
+  [
+    "20. Withdrawal of Consent",
+    [],
+    [
+      "Where Gionaka processes your personal data based on your consent, you may withdraw that consent by contacting us at PrivacyPolicy@gionaka.com.",
+      "Withdrawing consent does not affect the lawfulness of processing that took place before the withdrawal.",
+    ],
+  ],
+
+  [
+    "21. Grievance Redressal",
+    [],
+    [
+      "If you have a concern or complaint about how Gionaka handles your personal data or privacy rights, you can contact us at PrivacyPolicy@gionaka.com.",
+      "Please provide enough information for us to understand and review your concern. Gionaka will respond to grievances within the period required by applicable law.",
+    ],
+  ],
+
+  [
+    "22. Changes to This Privacy Policy",
+    [],
+    [
+      "Gionaka may update this Privacy Policy from time to time when our features, data practices, service providers, or legal requirements change.",
+      "The Effective Date at the beginning of this Privacy Policy indicates when the current version became effective.",
+      "If a change materially affects how we process personal data, Gionaka will provide any notice or take any other steps required by applicable law.",
+      "We encourage you to review this Privacy Policy periodically for updates.",
+    ],
+  ],
+
+  [
+    "23. Contact Gionaka",
+    [],
+    [
+      "For privacy questions, privacy requests, or data-related concerns, contact the Gionaka Privacy Team at PrivacyPolicy@gionaka.com.",
+      "For general app support, contact Gionaka Support at support@gionaka.com.",
+      "Website: gionaka.com",
+    ],
+  ],
 ] as const
 
 export default function PrivacyPage() {
   return (
     <main className="min-h-screen bg-background">
-      <header className="border-b border-border bg-background"><div className="mx-auto flex max-w-5xl items-center px-4 py-5 sm:px-6"> <Link
+      <header className="border-b border-border bg-background">
+        <div className="mx-auto flex max-w-5xl items-center px-4 py-5 sm:px-6">
+          <Link
             href="/"
             className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition hover:text-foreground"
           >
             <ArrowLeft className="h-4 w-4" />
             Back to Gionaka
           </Link>
+        </div>
+      </header>
+
+      <section className="border-b border-border bg-muted/30">
+        <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 md:py-20">
+          <div className="mx-auto max-w-3xl text-center">
+            <div className="mx-auto flex size-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm">
+              <FileText className="size-7" />
+            </div>
+
+            <h1 className="mt-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">
+              Privacy Policy
+            </h1>
+
+            <p className="mt-5 text-base leading-7 text-muted-foreground md:text-lg">
+              How Gionaka collects, uses, protects, and manages your personal data.
+            </p>
+
+            <div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
+              <span>
+                <strong className="text-foreground">Effective Date:</strong>{' '}
+                [Insert Launch Date]
+              </span>
+
+              <span>
+                <strong className="text-foreground">Last Updated:</strong>{' '}
+                [Insert Date]
+              </span>
+            </div>
           </div>
-          </header>
-      
-      <section className="border-b border-border bg-muted/30"><div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 md:py-20"><div className="mx-auto max-w-3xl text-center"><div className="mx-auto flex size-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm"><FileText className="size-7" /></div><h1 className="mt-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">Privacy Policy</h1><p className="mt-5 text-base leading-7 text-muted-foreground md:text-lg">How Gionaka collects, uses, protects, and manages personal data.</p><div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground"><span><strong className="text-foreground">Effective Date:</strong> [Insert Launch Date]</span><span><strong className="text-foreground">Last Updated:</strong> [Insert Date]</span></div></div></div></section>
-      <article className="mx-auto max-w-5xl px-4 py-12 sm:px-6 md:py-16"><div className="mx-auto max-w-3xl space-y-12 text-[15px] leading-8 text-muted-foreground">{sections.map(([title, paragraphs, bullets]) => <section key={title}><h2 className="mb-5 text-2xl font-bold leading-tight text-foreground md:text-3xl">{title}</h2><div className="space-y-4">{paragraphs.map((text) => <p key={text}>{text}</p>)}{bullets.length > 0 && <ul className="ml-5 list-disc space-y-2">{bullets.map((item) => <li key={item}>{item}</li>)}</ul>}</div></section>)}</div></article>
+        </div>
+      </section>
+
+      <article className="mx-auto max-w-5xl px-4 py-12 sm:px-6 md:py-16">
+        <div className="mx-auto max-w-3xl space-y-12 text-[15px] leading-8 text-muted-foreground">
+          {sections.map(([title, paragraphs, bullets]) => (
+            <section key={title}>
+              <h2 className="mb-5 text-2xl font-bold leading-tight text-foreground md:text-3xl">
+                {title}
+              </h2>
+
+              <div className="space-y-4">
+                {paragraphs.map((text) => (
+                  <p key={text}>{text}</p>
+                ))}
+
+                {bullets.length > 0 && (
+                  <ul className="ml-5 list-disc space-y-2">
+                    {bullets.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </section>
+          ))}
+        </div>
+      </article>
+
       <Footer />
     </main>
   )
