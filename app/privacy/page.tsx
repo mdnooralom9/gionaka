@@ -172,8 +172,24 @@ const sections = [
     "Gionaka may also disclose personal data when reasonably necessary to comply with applicable law, respond to lawful requests, prevent fraud or security threats, protect users or Gionaka, or establish, exercise, or defend legal claims.",
   ],
 ],
-  ['16. Data Retention', ['Gionaka retains personal data only as long as reasonably necessary for the purposes for which it is processed, or as required or permitted by law. Different information may be retained for different periods. After deletion or when information is no longer necessary, Gionaka will take appropriate steps to erase or dispose of it subject to lawful retention requirements. Gionaka will not retain personal data indefinitely merely because an account has been deleted.'], []],
-  ['17. Account Deletion', ['You can request deletion through the App. The current path is: Settings → Legal & Privacy → Account Deletion Policy. Deletion may remove personal information subject to information Gionaka is required or permitted to retain for law, security, fraud prevention, dispute resolution, or legal rights.'], []],
+  [
+  "16. Data Retention",
+   [ ],
+  [
+    "Gionaka retains personal data only for as long as reasonably necessary to provide the services for which it is processed, or as required or permitted by applicable law.",
+    "Different types of information may be retained for different periods depending on their purpose and applicable requirements.",
+    "When personal data is no longer required for its specified purpose, Gionaka will take appropriate steps to erase or otherwise dispose of it, subject to lawful retention requirements.",
+  ],
+],
+ [
+  "17. Account Deletion",
+  [ ],
+  [
+    "You can delete your Gionaka account through the account deletion option available in the App.",
+    "The current account-deletion path is: Settings → Legal & Privacy → Account Deletion Policy.",
+    "Deleting your account will result in the removal of personal data associated with your account, subject to information that Gionaka is required or permitted to retain under applicable law or for legitimate purposes such as security, fraud prevention, dispute resolution, or legal claims.",
+  ],
+],
   ['18. Data Security and Personal Data Breaches', ['Gionaka takes reasonable technical and organisational measures designed to protect personal data against unauthorized access, misuse, alteration, disclosure, loss, or destruction. No online service can guarantee absolute security. If Gionaka becomes aware of a breach, it will take appropriate steps to contain, investigate, address, and remediate it and provide notices where required by law.'], []],
   ['19. Age Requirement', ['Gionaka is intended for individuals 18 years of age or older and does not currently collect date of birth as part of ordinary registration. If you are under 18, you should not create or use a Gionaka account.'], []],
   ['20. Your Privacy Rights', ['Subject to applicable law, you may request information, correction, completion or updating, erasure, withdrawal of consent, raise a privacy grievance, and exercise other available rights. To exercise a privacy right or raise a concern, contact Privacy Team at PrivacyPolicy@gionaka.com. We may verify your identity before processing a request.'], []],
