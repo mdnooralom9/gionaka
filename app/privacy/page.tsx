@@ -190,8 +190,14 @@ const sections = [
     "Deleting your account will result in the removal of personal data associated with your account, subject to information that Gionaka is required or permitted to retain under applicable law or for legitimate purposes such as security, fraud prevention, dispute resolution, or legal claims.",
   ],
 ],
-  ['18. Data Security and Personal Data Breaches', ['Gionaka takes reasonable technical and organisational measures designed to protect personal data against unauthorized access, misuse, alteration, disclosure, loss, or destruction. No online service can guarantee absolute security. If Gionaka becomes aware of a breach, it will take appropriate steps to contain, investigate, address, and remediate it and provide notices where required by law.'], []],
-  ['19. Age Requirement', ['Gionaka is intended for individuals 18 years of age or older and does not currently collect date of birth as part of ordinary registration. If you are under 18, you should not create or use a Gionaka account.'], []],
+  [
+  "18. Data Security and Personal Data Breaches",
+   [ ],
+  [
+    "Gionaka takes reasonable measures to protect personal data against unauthorized access, misuse, alteration, disclosure, loss, or destruction.",
+    "No online service can guarantee complete security. If Gionaka becomes aware of a personal data breach, we will take appropriate steps to address the incident and provide notifications where required by applicable law.",
+  ],
+],
   ['20. Your Privacy Rights', ['Subject to applicable law, you may request information, correction, completion or updating, erasure, withdrawal of consent, raise a privacy grievance, and exercise other available rights. To exercise a privacy right or raise a concern, contact Privacy Team at PrivacyPolicy@gionaka.com. We may verify your identity before processing a request.'], []],
   ['21. Withdrawal of Consent', ['Where Gionaka processes personal data based on consent, you may withdraw that consent subject to law by contacting PrivacyPolicy@gionaka.com. Withdrawal does not affect lawful processing that occurred before withdrawal. Processing may continue under another lawful basis where permitted.'], []],
   ['22. Grievance Redressal', ['For concerns about how Gionaka handles personal data, contact PrivacyPolicy@gionaka.com with enough information to understand and investigate your concern. Gionaka will respond within the period required by applicable law.'], []],
