@@ -65,7 +65,27 @@ const sections = [
   ],
 ],
 
-  ['5. Information Visible to Other Users', ['Gionaka is designed to connect users for relevant local work and hiring opportunities. When necessary for a particular feature, limited information may be shown to another user.'], ['Gender', 'Last three digits of a mobile number', 'Category and subcategory', 'Location-related information', 'Favorite count', 'Call-related functionality', 'Information associated with a relevant activity or listing']],
+  [
+  "5. Information Visible to Other Users",
+  [
+    "Gionaka is designed to help users connect for relevant local work and hiring opportunities. Depending on the feature you use, certain limited information may be visible to other users.",
+  ],
+  [
+    "Gender",
+    "Last three digits of your mobile number",
+    "Selected role, such as Find Work or Hire Locally",
+    "Category and subcategory",
+    "City or relevant area",
+    "Post date",
+    "Favorite count",
+    "Call option",
+    "Incoming or outgoing indication in Call History",
+  ],
+  [
+    "Your complete mobile number and exact latitude or longitude are not publicly displayed to other users.",
+    "Information shown through Gionaka is limited to what is relevant to the particular feature being used.",
+  ],
+],
   ['6. Find Work and Hire Locally', ['Gionaka provides location-based features that help users look for nearby work opportunities, find nearby local workers, select categories and subcategories, search using nearby or manually selected locations, and connect with relevant users.', 'The information processed through these features is used to provide relevant results and facilitate connections. Gionaka does not guarantee employment, a particular worker, a particular job, or a particular outcome.'], []],
   ['7. Calls and Call History', ['Gionaka provides a Call feature that allows users to contact another user through the device\'s phone functionality. Gionaka does not record phone conversations, store call audio, listen to conversations, or store their contents.', 'Gionaka may process limited call-related information so relevant activity can appear in Call History.'], ['Gender', 'Last three digits of the mobile number', 'Category and subcategory', 'Location-related information', 'Incoming or outgoing indication', 'Call functionality']],
   ['8. Favorites', ['Gionaka provides a Favorite feature that allows users to mark relevant users or connections. Favorite activity may be associated with your account and a Favorite count may be displayed. The person you have favorited is not notified that you personally added them. Your individual Favorite activity is not publicly disclosed as your personal action.'], []],
