@@ -85,7 +85,15 @@ const sections = [
     "Information shown through Gionaka is limited to what is relevant to the particular feature being used.",
   ],
 ],
-  ['6. Find Work and Hire Locally', ['Gionaka provides location-based features that help users look for nearby work opportunities, find nearby local workers, select categories and subcategories, search using nearby or manually selected locations, and connect with relevant users.', 'The information processed through these features is used to provide relevant results and facilitate connections. Gionaka does not guarantee employment, a particular worker, a particular job, or a particular outcome.'], []],
+ [
+  "6. Find Work and Hire Locally",
+  [
+  ],
+  [
+    "Gionaka provides features that allow users to look for nearby work or search for local workers based on their selected role, category, subcategory, and location.",
+    "Gionaka is a platform that helps users connect with each other. We do not guarantee employment, a particular worker, a particular job, or any specific outcome from using the platform.",
+  ],
+],
   ['7. Calls and Call History', ['Gionaka provides a Call feature that allows users to contact another user through the device\'s phone functionality. Gionaka does not record phone conversations, store call audio, listen to conversations, or store their contents.', 'Gionaka may process limited call-related information so relevant activity can appear in Call History.'], ['Gender', 'Last three digits of the mobile number', 'Category and subcategory', 'Location-related information', 'Incoming or outgoing indication', 'Call functionality']],
   ['8. Favorites', ['Gionaka provides a Favorite feature that allows users to mark relevant users or connections. Favorite activity may be associated with your account and a Favorite count may be displayed. The person you have favorited is not notified that you personally added them. Your individual Favorite activity is not publicly disclosed as your personal action.'], []],
   ['9. Reports and Platform Safety', ['Gionaka provides reporting functionality for potentially inappropriate or suspicious activity. Reports may be reviewed for platform safety, abuse prevention, spam prevention, fraud prevention, and enforcement of Gionaka rules. Depending on the circumstances, Gionaka may restrict, suspend, or disable an account. Gionaka does not guarantee that every report will result in a particular action.'], ['Abuse', 'Spam', 'Other', 'Additional information provided by the reporting user']],
