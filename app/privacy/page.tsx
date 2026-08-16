@@ -138,7 +138,15 @@ const sections = [
   ],
 ],
   ['11. Analytics and Service Improvement', ['Gionaka may use analytics services to understand how users interact with the App and improve reliability, functionality, and user experience. Analytics may help understand feature use, performance, errors, technical problems, and general usage patterns.'], []],
-  ['12. Device Permissions', ['Gionaka may request permissions when required for a feature. Location is used for nearby functionality. Calling or phone functionality is used to initiate calls through your device. You can manage permissions through device settings; disabling a required permission may prevent a feature from working correctly.'], []],
+
+  [
+  "12. Device Permissions",
+   [ ],
+  [
+    "Gionaka may request access to device features when a permission is needed for a specific feature of the App.",
+    "You can manage the permissions available to Gionaka through your device settings.",
+  ],
+],
   ['13. Website Privacy', ['The Gionaka Website primarily provides information about Gionaka, app download access, Help Centre resources, Privacy Policy, Terms & Conditions, and support information. The Website does not currently provide account registration or login. Main account and platform functionality is provided through the mobile App.'], []],
   ['14. Cookies and Similar Technologies', ['The Website may use technologies necessary for proper operation. Gionaka does not currently intend to use Website cookies beyond necessary operation unless functionality changes. Third-party services may have their own technologies and privacy practices.'], []],
   ['15. How We Share Personal Data', ['Gionaka does not sell your personal data. Personal data may be processed by service providers supporting authentication, data storage, analytics, advertising, technical infrastructure, security, and platform operations.', 'Gionaka may disclose personal data where reasonably necessary to comply with law, respond to lawful requests, prevent fraud or security threats, protect users, protect Gionaka rights or property, enforce terms, or defend legal claims.'], []],
