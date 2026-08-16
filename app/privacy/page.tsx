@@ -54,7 +54,17 @@ const sections = [
     "To comply with applicable laws and respond to lawful requests.",
   ],
 ],
-  ['4. Location Information', ['Location is an important part of Gionaka\'s local-search functionality. Gionaka may use your location to find relevant nearby results, determine a relevant nearby city or area, support Find Work and Hire Locally, and improve location-based results.', 'You may manually select a location where the relevant feature allows you to do so. Your exact latitude and longitude are not publicly displayed to other users. Other users may receive location-related information such as a relevant city or area. Gionaka does not use your location to continuously track your movements in the background for ordinary use.'], []],
+  [
+  "4. Location Information",
+  [
+  ],
+  [
+    "Location is an important part of Gionaka's local-search functionality. Gionaka may use your current or manually selected location to find relevant nearby results, determine a relevant nearby city or area, and support Find Work and Hire Locally.",
+    "Your exact latitude and longitude are not publicly displayed to other users. Other users may receive limited location-related information, such as a relevant city or area, as part of the service.",
+    "Gionaka does not continuously track your location in the background for ordinary use of the service.",
+  ],
+],
+
   ['5. Information Visible to Other Users', ['Gionaka is designed to connect users for relevant local work and hiring opportunities. When necessary for a particular feature, limited information may be shown to another user.'], ['Gender', 'Last three digits of a mobile number', 'Category and subcategory', 'Location-related information', 'Favorite count', 'Call-related functionality', 'Information associated with a relevant activity or listing']],
   ['6. Find Work and Hire Locally', ['Gionaka provides location-based features that help users look for nearby work opportunities, find nearby local workers, select categories and subcategories, search using nearby or manually selected locations, and connect with relevant users.', 'The information processed through these features is used to provide relevant results and facilitate connections. Gionaka does not guarantee employment, a particular worker, a particular job, or a particular outcome.'], []],
   ['7. Calls and Call History', ['Gionaka provides a Call feature that allows users to contact another user through the device\'s phone functionality. Gionaka does not record phone conversations, store call audio, listen to conversations, or store their contents.', 'Gionaka may process limited call-related information so relevant activity can appear in Call History.'], ['Gender', 'Last three digits of the mobile number', 'Category and subcategory', 'Location-related information', 'Incoming or outgoing indication', 'Call functionality']],
