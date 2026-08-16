@@ -40,7 +40,16 @@ const sections = [
 export default function PrivacyPage() {
   return (
     <main className="min-h-screen bg-background">
-      <header className="border-b border-border bg-background"><div className="mx-auto flex max-w-5xl items-center px-4 py-5 sm:px-6"><Link href="/help" className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition hover:text-foreground"><ArrowLeft className="size-4" />Back to Help Centre</Link></div></header>
+      <header className="border-b border-border bg-background"><div className="mx-auto flex max-w-5xl items-center px-4 py-5 sm:px-6"> <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground transition hover:text-foreground"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Back to Gionaka
+          </Link>
+          </div>
+          </header>
+      
       <section className="border-b border-border bg-muted/30"><div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 md:py-20"><div className="mx-auto max-w-3xl text-center"><div className="mx-auto flex size-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm"><FileText className="size-7" /></div><h1 className="mt-6 text-3xl font-bold tracking-tight text-foreground md:text-5xl">Privacy Policy</h1><p className="mt-5 text-base leading-7 text-muted-foreground md:text-lg">How Gionaka collects, uses, protects, and manages personal data.</p><div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground"><span><strong className="text-foreground">Effective Date:</strong> [Insert Launch Date]</span><span><strong className="text-foreground">Last Updated:</strong> [Insert Date]</span></div></div></div></section>
       <article className="mx-auto max-w-5xl px-4 py-12 sm:px-6 md:py-16"><div className="mx-auto max-w-3xl space-y-12 text-[15px] leading-8 text-muted-foreground">{sections.map(([title, paragraphs, bullets]) => <section key={title}><h2 className="mb-5 text-2xl font-bold leading-tight text-foreground md:text-3xl">{title}</h2><div className="space-y-4">{paragraphs.map((text) => <p key={text}>{text}</p>)}{bullets.length > 0 && <ul className="ml-5 list-disc space-y-2">{bullets.map((item) => <li key={item}>{item}</li>)}</ul>}</div></section>)}</div></article>
       <Footer />
