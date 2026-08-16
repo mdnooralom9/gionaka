@@ -216,7 +216,14 @@ const sections = [
     "We may take reasonable steps to verify your identity before processing a request relating to your personal data.",
   ],
 ],
-  ['21. Withdrawal of Consent', ['Where Gionaka processes personal data based on consent, you may withdraw that consent subject to law by contacting PrivacyPolicy@gionaka.com. Withdrawal does not affect lawful processing that occurred before withdrawal. Processing may continue under another lawful basis where permitted.'], []],
+ [
+  "21. Withdrawal of Consent",
+   [ ],
+  [
+    "Where Gionaka processes your personal data based on your consent, you may withdraw that consent by contacting us at PrivacyPolicy@gionaka.com.",
+    "Withdrawing consent does not affect the lawfulness of processing that took place before the withdrawal.",
+  ],
+],
   ['22. Grievance Redressal', ['For concerns about how Gionaka handles personal data, contact PrivacyPolicy@gionaka.com with enough information to understand and investigate your concern. Gionaka will respond within the period required by applicable law.'], []],
   ['23. Third-Party Services', ['Gionaka may use third-party services for authentication, cloud infrastructure and storage, analytics, advertising, technical, and security services. Providers may process information under their own terms and privacy policies. Gionaka does not control practices outside its control.'], []],
   ['24. Changes to This Privacy Policy', ['Gionaka may update this Privacy Policy when features, data practices, third-party services, legal requirements, or privacy practices change. The Effective Date indicates when the current version became effective. Where a change materially affects processing, Gionaka will provide notices required by law. We encourage users to review this Privacy Policy periodically.'], []],
