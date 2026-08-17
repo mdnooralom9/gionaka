@@ -273,16 +273,15 @@ const sections = [
   [],
 ],
   [
-    "22. Changes to These Terms",
-    [
-      "Gionaka may update these Terms from time to time when features or services change, legal requirements change, platform rules or policies change, or security or operational requirements change.",
-      "The latest version will be made available through Gionaka.",
-      "When a material change requires additional notice under applicable law, Gionaka will provide the appropriate notice.",
-      "Gionaka may periodically remind users of its rules, Privacy Policy, and User Agreement and of the consequences of non-compliance, where required by applicable law.",
-    ],
-    [],
+  "22. Changes to These Terms",
+  [
+    "Gionaka may update these Terms from time to time when features or services change, legal requirements change, platform rules or policies change, or security or operational requirements change.",
+    "The latest version will be made available through Gionaka.",
+    "When a material change requires additional notice under applicable law, Gionaka will provide the appropriate notice.",
+    "Where required by applicable law, Gionaka will periodically remind users of its Terms, Privacy Policy, User Agreement, and the consequences of non-compliance.",
   ],
-
+  [],
+ ],
   [
     "23. Governing Law and Dispute Resolution",
     [
