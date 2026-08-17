@@ -252,27 +252,26 @@ const sections = [
   ],
   [],
 ],
+ [
+  "20. Privacy",
   [
-    "20. Privacy",
-    [
-      "Your use of Gionaka is also governed by the Gionaka Privacy Policy, which explains how personal data is collected, used, retained, shared, and protected.",
-      "You can review the Privacy Policy at https://gionaka.com/privacy",
-      "The Privacy Policy forms part of these Terms to the extent applicable to your use of Gionaka.",
-    ],
-    [],
+    "Your use of Gionaka is also subject to the Gionaka Privacy Policy, which explains how Gionaka collects, uses, retains, shares, and protects personal data.",
+    "You can review the Privacy Policy at https://gionaka.com/privacy.",
   ],
-
+  [],
+],
   [
-    "21. Complaints and Grievance Handling",
-    [
-      "If you have a complaint relating to Gionaka, its user agreement, user information, or other matters concerning the platform, you may contact:",
-      "Gionaka Grievance Contact — PrivacyPolicy@gionaka.com",
-      "Please provide sufficient information to allow the issue to be reviewed.",
-      "Gionaka will handle complaints according to applicable law and its applicable grievance process.",
-    ],
-    [],
+  "21. Complaints and Grievance Handling",
+  [
+    "Gionaka provides a grievance mechanism for users to raise complaints concerning the App, user activity, user-generated information, or other matters relating to the platform.",
+    "The designated Grievance Officer for Gionaka is Md Noor Alom.",
+    "Grievance Officer — Md Noor Alom",
+    "Email — PrivacyPolicy@gionaka.com",
+    "Please provide sufficient information to allow the issue to be reviewed.",
+    "Gionaka will handle complaints in accordance with applicable law and the applicable grievance process.",
   ],
-
+  [],
+],
   [
     "22. Changes to These Terms",
     [
