@@ -230,22 +230,20 @@ const sections = [
   ],
 ],
   [
-    "18. Account Suspension and Termination",
-    [
-      "Gionaka may restrict, suspend, or terminate your access to the service, or remove or disable information you provide, when reasonably necessary because:",
-    ],
-    [
-      "You violate these Terms.",
-      "You violate applicable law.",
-      "You provide misleading or fraudulent information.",
-      "Your account is used for abuse, spam, fraud, or other harmful activity.",
-      "Your activity creates a security or safety risk.",
-      "Gionaka is required to act by law or lawful authority.",
-      "Continued access could harm Gionaka, other users, or the operation of the platform.",
-      "Where appropriate and permitted by law, Gionaka may preserve relevant information or records for legitimate security, investigation, legal, or compliance purposes.",
-    ],
+  "18. Account Suspension and Termination",
+  [
+    "Gionaka may restrict, suspend, or terminate your access to the App, or remove or disable information you provide, when reasonably necessary because:",
   ],
-
+  [
+    "You violate these Terms.",
+    "You violate applicable law.",
+    "You provide misleading or fraudulent information.",
+    "Your account is used for abuse, spam, fraud, or other harmful activity.",
+    "Your activity creates a security or safety risk.",
+    "Gionaka is required to act by law or lawful authority.",
+    "Continued access could harm Gionaka, other users, or the operation of the platform.",
+  ],
+],
   [
     "19. Account Deletion",
     [
