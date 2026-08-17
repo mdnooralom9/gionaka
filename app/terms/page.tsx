@@ -33,25 +33,24 @@ const sections = [
   [],
 ],
 
+ [
+  "3. The Gionaka Service",
   [
-    "3. The Gionaka Service",
-    [
-      "Gionaka provides a digital platform that helps users discover and connect with nearby people for work and local hiring purposes.",
-      "Depending on the features available, Gionaka may allow users to:",
-    ],
-    [
-      "Choose Find Work or Hire Locally",
-      "Select categories and subcategories",
-      "Choose or use a nearby location",
-      "View relevant posts and local results",
-      "Publish posts",
-      "Contact other users through the Call feature",
-      "View Call History",
-      "Favorite other users after a call-related connection",
-      "Report potentially inappropriate or suspicious activity",
-    ],
+    "Gionaka is a location-based platform that helps people looking for work connect with people looking to hire local workers.",
+    "Depending on the features available, Gionaka may allow users to:",
   ],
-
+  [
+    "Choose Find Work or Hire Locally.",
+    "Select categories and subcategories.",
+    "Use their current or manually selected location.",
+    "View relevant posts and local results.",
+    "Publish posts.",
+    "Contact other users through the Call feature.",
+    "View Call History.",
+    "Favorite another user after a call-related connection.",
+    "Report potentially inappropriate or suspicious activity.",
+  ],
+],
   [
     "4. User Accounts and OTP",
     [
