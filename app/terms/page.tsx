@@ -184,17 +184,15 @@ const sections = [
   ],
   [],
 ],
+[
+  "14. Third-Party Services",
   [
-    "14. Third-Party Services",
-    [
-      "Gionaka may rely on third-party services to support parts of the App, including authentication, infrastructure, analytics, advertising, and phone-related functionality.",
-      "Third-party services may have their own terms and privacy policies.",
-      "Your use of a third-party service may also be subject to the applicable terms of that service.",
-      "Gionaka is not responsible for the independent operation or policies of third-party services outside Gionaka's control.",
-    ],
-    [],
+    "Gionaka may rely on third-party services to support parts of the App, including authentication, infrastructure, analytics, advertising, and phone-related functionality.",
+    "Third-party services may have their own terms and privacy policies, which may apply to their services.",
+    "Gionaka is not responsible for the independent operation or privacy practices of third-party services outside Gionaka's control.",
   ],
-
+  [],
+],
   [
     "15. Availability and Changes to the Service",
     [
