@@ -193,16 +193,15 @@ const sections = [
   ],
   [],
 ],
+ [
+  "15. Availability and Changes to the Service",
   [
-    "15. Availability and Changes to the Service",
-    [
-      "Gionaka aims to keep its services available and functional, but uninterrupted availability cannot be guaranteed.",
-      "The App or particular features may occasionally be unavailable because of maintenance, updates, technical problems, network issues, security incidents, third-party service interruptions, or circumstances beyond Gionaka's reasonable control.",
-      "Gionaka may modify, suspend, restrict, or discontinue any feature or part of the service when reasonably necessary.",
-    ],
-    [],
+    "Gionaka aims to keep the App and its services available and functional, but uninterrupted or error-free availability cannot be guaranteed.",
+    "The App or particular features may occasionally be unavailable or limited because of maintenance, updates, technical problems, network issues, security incidents, third-party service interruptions, or circumstances beyond Gionaka's reasonable control.",
+    "Gionaka may modify, add, suspend, or discontinue features or parts of the service when reasonably necessary.",
   ],
-
+  [],
+],
   [
     "16. Disclaimer of Warranties and Guarantees",
     [
