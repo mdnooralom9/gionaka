@@ -162,17 +162,17 @@ const sections = [
     "Gionaka does not guarantee that a user will receive work or that a person looking to hire will find a suitable worker.",
   ],
 ],
-
+ [
+  "12. Payments and Transactions",
   [
-    "12. Transactions and Payments",
-    [
-      "Gionaka does not currently process payments between users through the App.",
-      "Any payment, compensation, pricing, work agreement, or other financial arrangement made between users is separate from Gionaka unless Gionaka expressly introduces a payment feature in the future.",
-      "Users are responsible for understanding and complying with applicable laws relating to their own transactions and arrangements.",
-    ],
-    [],
+    "Gionaka is a connection platform. Based on the role, category, subcategory, and location selected by users, Gionaka helps connect relevant local parties through the available features of the App.",
+    "Gionaka does not set, negotiate, collect, receive, hold, or manage payments between users.",
+    "Gionaka does not determine the price, wages, fees, or other amounts agreed between users.",
+    "Any payment, compensation, pricing, or other financial arrangement is agreed directly between the users involved and is separate from Gionaka.",
+    "Gionaka does not currently process payments between users through the App.",
   ],
-
+  [],
+],
   [
     "13. Intellectual Property",
     [
