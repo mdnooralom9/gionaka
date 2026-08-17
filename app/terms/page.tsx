@@ -98,17 +98,16 @@ const sections = [
   [],
 ],
   [
-    "8. Reports and Safety",
-    [
-      "Gionaka provides a reporting feature that allows users to report potentially inappropriate, suspicious, abusive, or spam-related activity.",
-      "Reports may include a selected reason and additional information provided by the reporting user.",
-      "Gionaka may review reports and take appropriate action based on the circumstances.",
-      "Gionaka may remove content, restrict functionality, suspend accounts, or terminate access where appropriate or where required by applicable law.",
-      "Gionaka does not guarantee that every report will result in a particular action.",
-    ],
-    [],
+  "8. Reports and Safety",
+  [
+    "Gionaka provides a reporting feature that allows users to report potentially inappropriate, suspicious, abusive, or spam-related activity.",
+    "Reports may include a selected reason and additional information provided by the reporting user.",
+    "Gionaka may review reports and take appropriate action based on the circumstances.",
+    "Gionaka may take action on reported content or accounts where appropriate or where required by applicable law.",
+    "Gionaka does not guarantee that every report will result in a particular action.",
   ],
-
+  [],
+],
   [
     "9. Prohibited Use and Content",
     [
