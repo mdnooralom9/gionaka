@@ -149,6 +149,10 @@ const sections = [
   "11. Gionaka's Role",
   [
     "Gionaka is a platform that helps users discover and connect with each other for local work and hiring purposes.",
+    [
+    "Any employment, service arrangement, or other relationship formed between users is between those users and not with Gionaka.",
+    "Gionaka does not guarantee that a user will receive work or that a person looking to hire will find a suitable worker.",
+  ],
     "Gionaka is not:",
   ],
   [
@@ -157,10 +161,7 @@ const sections = [
     "A contractor or party to any work or service arrangement between users.",
     "A guarantor or certifier of a user's identity, skills, qualifications, conduct, or performance.",
   ],
-  [
-    "Any employment, service arrangement, or other relationship formed between users is between those users and not with Gionaka.",
-    "Gionaka does not guarantee that a user will receive work or that a person looking to hire will find a suitable worker.",
-  ],
+  
 ],
  [
   "12. Payments and Transactions",
