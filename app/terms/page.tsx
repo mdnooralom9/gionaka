@@ -202,26 +202,24 @@ const sections = [
   ],
   [],
 ],
+ [
+  "16. Disclaimer of Warranties and Guarantees",
   [
-    "16. Disclaimer of Warranties and Guarantees",
-    [
-      "Gionaka is provided on an \"as available\" basis to the extent permitted by applicable law.",
-      "Gionaka does not guarantee:",
-    ],
-    [
-      "That the service will always be available.",
-      "That every result will be accurate or suitable.",
-      "That every user is genuine or trustworthy.",
-      "That a worker has particular qualifications or experience.",
-      "That work will be found.",
-      "That a worker will be hired.",
-      "That a connection between users will be successful.",
-      "That a user's conduct will meet your expectations.",
-      "That communications or arrangements between users will produce a particular outcome.",
-      "Gionaka does not independently verify every statement, profile detail, qualification, or claim made by users.",
-    ],
+    "Gionaka is provided on an \"as available\" basis to the extent permitted by applicable law.",
+    "Gionaka does not guarantee:",
   ],
-
+  [
+    "That every result will be accurate, complete, or suitable for your needs.",
+    "That every user is genuine, trustworthy, or suitable for your intended purpose.",
+    "That a worker has particular qualifications, skills, experience, or availability.",
+    "That work will be found or that a worker will be hired.",
+    "That a connection between users will be successful or lead to a particular outcome.",
+    "That information provided by users is accurate or complete.",
+  ],
+  [
+    "Gionaka does not independently verify every statement, profile detail, qualification, or claim made by users.",
+  ],
+],
   [
     "17. Limitation of Liability",
     [
