@@ -23,16 +23,15 @@ const sections = [
   [],
 ],
 
+ [
+  "2. Eligibility",
   [
-    "2. Eligibility",
-    [
-      "Gionaka is intended for individuals who are 18 years of age or older.",
-      "By using Gionaka, you represent that you meet this age requirement.",
-      "Gionaka does not currently collect date of birth during registration and does not independently verify age through a date-of-birth field.",
-      "If you are under 18, you must not create or use a Gionaka account.",
-    ],
-    [],
+    "Gionaka is intended for individuals who are 18 years of age or older.",
+    "By creating an account or using Gionaka, you confirm that you meet this age requirement.",
+    "If you are under 18, you must not create or use a Gionaka account.",
   ],
+  [],
+],
 
   [
     "3. The Gionaka Service",
