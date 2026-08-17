@@ -67,30 +67,27 @@ const sections = [
 ],
 
   [
-    "5. User Information and Posts",
-    [
-      "Users may provide information through Gionaka features, including information associated with posts, categories, subcategories, location, role selection, and other available fields.",
-      "You are responsible for ensuring that information you provide or publish is accurate to the best of your knowledge and does not intentionally mislead other users.",
-      "When you publish a post, you understand that the information intended to be displayed through that feature may become visible to other Gionaka users.",
-      "You should only publish information that you have the right to provide and share.",
-      "Gionaka may remove, restrict, or disable access to information that violates these Terms, applicable law, or Gionaka's policies.",
-    ],
-    [],
-  ],
-
+  "5. User Information and Posts",
   [
-    "6. Phone Calls and Phone Number Disclosure",
-    [
-      "Gionaka provides a Call feature that may open your device's normal phone-calling functionality.",
-      "When you publish a post, another user may select the Call button associated with that post.",
-      "By choosing to publish a post, you acknowledge that using the Call feature may result in your phone number being disclosed to the calling user through the normal phone-calling process.",
-      "Gionaka does not record or store the content of phone conversations.",
-      "Users are responsible for their own communications and interactions after a call is initiated.",
-      "Gionaka does not control what users discuss during phone calls and is not a participant in those conversations.",
-    ],
-    [],
+    "Users may provide information through Gionaka features, including information associated with posts, categories, subcategories, location, role selection, and other available fields.",
+    "You are responsible for ensuring that information you provide or publish is accurate to the best of your knowledge and does not intentionally mislead other users.",
+    "When you publish a post, the information intended to be displayed through that feature may become visible to other Gionaka users.",
+    "You should only publish information that you have the right to provide and share.",
   ],
+  [],
+],
 
+[
+  "6. Phone Calls and Phone Number Disclosure",
+  [
+    "Gionaka provides a Call feature that may open your device's normal phone-calling functionality.",
+    "When you publish a post, another user may select the Call button associated with that post.",
+    "By publishing a post, you acknowledge that using the Call feature may result in your phone number being disclosed to the calling user through the normal phone-calling process.",
+    "Gionaka does not record or store the content of phone conversations.",
+    "Gionaka does not control what users discuss during phone calls and is not a participant in those conversations.",
+  ],
+  [],
+],
   [
     "7. Favorites",
     [
