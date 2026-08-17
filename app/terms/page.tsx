@@ -12,16 +12,16 @@ export const metadata: Metadata = {
 
 const sections = [
   [
-    "1. Introduction and Acceptance",
-    [
-      "These Terms & Conditions (\"Terms\") govern your access to and use of the Gionaka mobile application (\"App\") and related services provided by Gionaka (\"Gionaka\", \"we\", \"us\", or \"our\").",
-      "Gionaka is a location-based platform designed to help people looking for work connect with people looking to hire local workers.",
-      "By creating an account, accessing, or using Gionaka, you agree to these Terms and our Privacy Policy.",
-      "If you do not agree to these Terms, you should not create an account or use Gionaka.",
-      "Our Privacy Policy explains how we collect, use, and protect personal data and forms part of your relationship with Gionaka.",
-    ],
-    [],
+  "1. Introduction and Acceptance",
+  [
+    "These Terms & Conditions (\"Terms\") govern your access to and use of the Gionaka mobile application (\"App\") and related services provided by Gionaka (\"Gionaka\", \"we\", \"us\", or \"our\").",
+    "Gionaka is a location-based platform designed to help people looking for work connect with people looking to hire local workers.",
+    "By creating an account, accessing, or using Gionaka, you agree to these Terms and the Gionaka Privacy Policy.",
+    "If you do not agree to these Terms, you should not create an account or use Gionaka.",
+    "Our Privacy Policy explains how Gionaka collects, uses, retains, shares, and protects personal data.",
   ],
+  [],
+],
 
   [
     "2. Eligibility",
