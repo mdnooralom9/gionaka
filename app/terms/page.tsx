@@ -283,15 +283,14 @@ const sections = [
   [],
  ],
   [
-    "23. Governing Law and Dispute Resolution",
-    [
-      "These Terms are governed by the laws of India, subject to applicable law.",
-      "Any dispute arising from or relating to these Terms or the use of Gionaka will be subject to the jurisdiction of the courts having appropriate jurisdiction under applicable law.",
-      "Nothing in this section prevents a user from exercising any mandatory legal right or remedy available under applicable law.",
-    ],
-    [],
+  "23. Governing Law and Dispute Resolution",
+  [
+    "These Terms are governed by applicable law.",
+    "Any dispute arising from or relating to these Terms or the use of Gionaka will be handled in accordance with applicable law.",
+    "Nothing in these Terms prevents a user from exercising any mandatory legal right or remedy available under applicable law.",
   ],
-
+  [],
+],
   [
     "24. Contact Gionaka",
     [
