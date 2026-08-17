@@ -131,22 +131,19 @@ const sections = [
   ],
 ],
   [
-    "10. User Responsibilities",
-    [
-      "You are responsible for your own decisions, communications, and interactions with other users.",
-      "You should:",
-    ],
-    [
-      "Provide information honestly and responsibly.",
-      "Respect other users.",
-      "Use Gionaka only for lawful purposes.",
-      "Keep your account and OTP secure.",
-      "Use the platform in accordance with these Terms.",
-      "Report suspicious or abusive activity through available reporting tools.",
-      "Take appropriate care before sharing personal information with another user.",
-      "Exercise your own judgment when deciding whether to contact, meet, hire, or work with another user.",
-    ],
+  "10. User Responsibilities",
+  [
+    "You are responsible for your own decisions, communications, and interactions with other Gionaka users.",
+    "You should:",
   ],
+  [
+    "Provide information honestly and responsibly.",
+    "Respect other users and their privacy.",
+    "Take appropriate care before sharing personal information with another user.",
+    "Exercise your own judgment when deciding whether to contact, meet, hire, or work with another user.",
+    "Use Gionaka in a manner that does not harm other users or the platform.",
+  ],
+],
 
   [
     "11. Gionaka's Role",
