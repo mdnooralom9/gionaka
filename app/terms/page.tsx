@@ -198,13 +198,11 @@ const sections = [
   ],
   [],
 ],
- [
+[
   "16. Disclaimer of Warranties and Guarantees",
   [
     "Gionaka is provided on an \"as available\" basis to the extent permitted by applicable law.",
-     [
     "Gionaka does not independently verify every statement, profile detail, qualification, or claim made by users.",
-  ],
     "Gionaka does not guarantee:",
   ],
   [
