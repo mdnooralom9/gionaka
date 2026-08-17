@@ -173,18 +173,17 @@ const sections = [
   ],
   [],
 ],
+ [
+  "13. Intellectual Property",
   [
-    "13. Intellectual Property",
-    [
-      "The Gionaka name, logo, visual design, software, interface, text, graphics, and other content provided by Gionaka are owned by or licensed to Gionaka and are protected by applicable intellectual-property laws.",
-      "You may use Gionaka only for its intended purpose and in accordance with these Terms.",
-      "You must not copy, reproduce, modify, distribute, sell, reverse engineer, publicly display, or commercially exploit Gionaka's proprietary materials without appropriate authorization, except where permitted by applicable law.",
-      "You retain responsibility for content and information that you submit to Gionaka.",
-      "By submitting content through Gionaka, you grant Gionaka the limited rights necessary to host, store, display, transmit, and otherwise process that content for operating and providing the service.",
-    ],
-    [],
+    "The Gionaka name, logo, visual design, software, interface, text, graphics, and other materials provided by Gionaka are owned by Gionaka or used under applicable rights or licenses.",
+    "You may use Gionaka only for its intended purpose and in accordance with these Terms.",
+    "You must not copy, reproduce, modify, distribute, sell, reverse engineer, or commercially exploit Gionaka's proprietary materials without appropriate authorization, except where permitted by applicable law.",
+    "You retain responsibility for the content and information you submit through Gionaka and any rights you have in that content.",
+    "By submitting content through Gionaka, you grant Gionaka the limited rights necessary to host, store, display, transmit, and otherwise process that content for operating and providing the service.",
   ],
-
+  [],
+],
   [
     "14. Third-Party Services",
     [
