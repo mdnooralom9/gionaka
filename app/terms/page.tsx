@@ -244,16 +244,14 @@ const sections = [
     "Continued access could harm Gionaka, other users, or the operation of the platform.",
   ],
 ],
+ [
+  "19. Account Deletion",
   [
-    "19. Account Deletion",
-    [
-      "You may delete your Gionaka account using the account-deletion functionality available in the App.",
-      "Deleting your account does not automatically remove information that Gionaka is required or permitted to retain under applicable law or for legitimate purposes such as security, fraud prevention, dispute resolution, or legal claims.",
-      "Account deletion also does not cancel responsibilities or obligations that arose before deletion where those obligations continue to apply.",
-    ],
-    [],
+    "You may delete your Gionaka account using the account-deletion functionality available in the App.",
+    "Deleting your account does not affect rights, responsibilities, or obligations that arose before the deletion and continue to apply.",
   ],
-
+  [],
+],
   [
     "20. Privacy",
     [
