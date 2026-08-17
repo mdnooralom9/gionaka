@@ -88,16 +88,15 @@ const sections = [
   ],
   [],
 ],
+ [
+  "7. Favorites",
   [
-    "7. Favorites",
-    [
-      "Gionaka provides a Favorite feature that allows users to express a Favorite for another user after a call-related connection.",
-      "Favorite actions may contribute to a Favorite count associated with a user.",
-      "Gionaka does not represent a Favorite as a rating, review, certification, endorsement, or guarantee of a user's skills, behavior, or services.",
-    ],
-    [],
+    "Gionaka provides a Favorite feature that allows users to express a Favorite for another user after a call-related connection.",
+    "Each Favorite action may increase the Favorite count associated with a user. A higher Favorite count indicates that the user has received more Favorites from other users on Gionaka and may be used as an indicator of popularity on the platform.",
+    "A Favorite count is not a rating, review, certification, endorsement, or guarantee of a user's skills, behavior, reliability, or services.",
   ],
-
+  [],
+],
   [
     "8. Reports and Safety",
     [
