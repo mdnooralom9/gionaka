@@ -161,7 +161,6 @@ const sections = [
     "A contractor or party to any work or service arrangement between users.",
     "A guarantor or certifier of a user's identity, skills, qualifications, conduct, or performance.",
   ],
-  
 ],
  [
   "12. Payments and Transactions",
@@ -207,6 +206,9 @@ const sections = [
   "16. Disclaimer of Warranties and Guarantees",
   [
     "Gionaka is provided on an \"as available\" basis to the extent permitted by applicable law.",
+     [
+    "Gionaka does not independently verify every statement, profile detail, qualification, or claim made by users.",
+  ],
     "Gionaka does not guarantee:",
   ],
   [
@@ -216,9 +218,6 @@ const sections = [
     "That work will be found or that a worker will be hired.",
     "That a connection between users will be successful or lead to a particular outcome.",
     "That information provided by users is accurate or complete.",
-  ],
-  [
-    "Gionaka does not independently verify every statement, profile detail, qualification, or claim made by users.",
   ],
 ],
 [
