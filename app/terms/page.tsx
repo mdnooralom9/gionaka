@@ -36,13 +36,13 @@ const sections = [
  [
   "3. The Gionaka Service",
   [
-    "Gionaka is a location-based platform that helps people looking for work connect with people looking to hire local workers.",
-    "Depending on the features available, Gionaka may allow users to:",
+    "Gionaka provides a digital platform that helps users discover and connect with nearby people for work and local hiring purposes.",
+    "Gionaka's available features include:",
   ],
   [
     "Choose Find Work or Hire Locally.",
     "Select categories and subcategories.",
-    "Use their current or manually selected location.",
+    "Use your current or manually selected location.",
     "View relevant posts and local results.",
     "Publish posts.",
     "Contact other users through the Call feature.",
@@ -56,13 +56,13 @@ const sections = [
   [
     "Gionaka accounts are accessed using your mobile number and a one-time password (OTP). Gionaka does not use a traditional password-based login system.",
     "You are responsible for keeping your device and OTP secure and for taking reasonable steps to prevent unauthorized access to your account.",
-    "You must not:",
+    "You are responsible for activity carried out through your account unless the activity resulted from unauthorized access that was not caused by your failure to take reasonable security precautions.",
   ],
   [
-    "Share your OTP with another person.",
-    "Attempt to access another user's account.",
-    "Create or use an account using another person's identity or phone number.",
-    "Impersonate another person while using Gionaka.",
+    "Do not share your OTP with another person.",
+    "Do not attempt to access another user's account.",
+    "Do not create or use an account using another person's identity or phone number.",
+    "Do not impersonate another person while using Gionaka.",
   ],
 ],
 
