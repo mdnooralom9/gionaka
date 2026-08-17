@@ -52,20 +52,19 @@ const sections = [
   ],
 ],
   [
-    "4. User Accounts and OTP",
-    [
-      "To access Gionaka, you use your mobile number and a one-time password (OTP).",
-      "Gionaka does not use a traditional password-based login system.",
-      "You are responsible for keeping your device and OTP secure.",
-      "You are responsible for activity carried out through your account.",
-    ],
-    [
-      "Do not share your OTP with another person.",
-      "Do not attempt to access another user's account.",
-      "Do not create an account using another person's identity or phone number.",
-      "Do not use Gionaka to impersonate another person.",
-    ],
+  "4. User Accounts and OTP",
+  [
+    "Gionaka accounts are accessed using your mobile number and a one-time password (OTP). Gionaka does not use a traditional password-based login system.",
+    "You are responsible for keeping your device and OTP secure and for taking reasonable steps to prevent unauthorized access to your account.",
+    "You must not:",
   ],
+  [
+    "Share your OTP with another person.",
+    "Attempt to access another user's account.",
+    "Create or use an account using another person's identity or phone number.",
+    "Impersonate another person while using Gionaka.",
+  ],
+],
 
   [
     "5. User Information and Posts",
