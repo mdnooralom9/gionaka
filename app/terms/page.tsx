@@ -220,25 +220,22 @@ const sections = [
     "Gionaka does not independently verify every statement, profile detail, qualification, or claim made by users.",
   ],
 ],
+[
+  "17. Limitation of Liability",
   [
-    "17. Limitation of Liability",
-    [
-      "To the maximum extent permitted by applicable law, Gionaka will not be responsible for losses or damages arising from:",
-    ],
-    [
-      "User-to-user communications.",
-      "Phone calls between users.",
-      "Meetings or interactions between users.",
-      "Work or service arrangements between users.",
-      "User-provided information.",
-      "Fraudulent, misleading, abusive, or unlawful conduct by users.",
-      "Inaccurate or incomplete information provided by users.",
-      "Third-party services.",
-      "Temporary service interruptions.",
-      "Events outside Gionaka's reasonable control.",
-    ],
+    "To the maximum extent permitted by applicable law, Gionaka will not be responsible for losses, damages, or claims arising from:",
+    "Nothing in these Terms excludes or limits any liability that cannot lawfully be excluded or limited under applicable law.",
   ],
-
+  [
+    "Communications or interactions between users.",
+    "Phone calls between users.",
+    "Meetings between users.",
+    "Work, hiring, or service arrangements between users.",
+    "Information or content provided by users.",
+    "Fraudulent, misleading, abusive, or unlawful conduct by users.",
+    "Inaccurate, incomplete, or misleading information provided by users.",
+  ],
+],
   [
     "18. Account Suspension and Termination",
     [
