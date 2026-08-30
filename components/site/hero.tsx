@@ -24,7 +24,7 @@ export function Hero() {
           <h1 className="mt-6 text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
             <span className="text-primary">Find Work.</span>
             <br />
-            <span className="text-secondary">Hire Local.</span>
+            <span className="text-secondary">Hire Locally.</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
