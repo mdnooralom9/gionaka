@@ -18,7 +18,7 @@ export function Hero() {
         <div className="text-center lg:text-left">
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-accent px-4 py-1.5 text-sm font-medium text-accent-foreground">
             <MapPin className="h-4 w-4" />
-            India’s Digital Labour Chowk
+            The Digital Labour Chowk
           </span>
 
           <h1 className="mt-6 text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
