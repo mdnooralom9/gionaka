@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { MapPin } from 'lucide-react'
 import { DownloadAppButton } from './store-buttons'
 
 export function Hero() {
@@ -16,11 +15,6 @@ export function Hero() {
 
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2">
         <div className="text-center lg:text-left">
-          <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-accent px-4 py-1.5 text-sm font-medium text-accent-foreground">
-            <MapPin className="h-4 w-4" />
-            The Digital Labour Chowk
-          </span>
-
           <h1 className="mt-6 whitespace-nowrap text-[clamp(1.5rem,4vw,2.75rem)] font-extrabold leading-[1.05] tracking-tight text-foreground">
             <span className="text-primary">Find Work</span>
             <span className="px-2 text-muted-foreground">|</span>
