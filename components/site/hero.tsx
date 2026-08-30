@@ -1,5 +1,5 @@
-import { MapPin, Star } from 'lucide-react'
-import { PhoneMockup } from './phone-mockup'
+import Image from 'next/image'
+import { MapPin } from 'lucide-react'
 import { DownloadAppButton } from './store-buttons'
 
 export function Hero() {
@@ -21,45 +21,34 @@ export function Hero() {
             The Digital Labour Chowk
           </span>
 
-          <h1 className="mt-6 text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
-            <span className="text-primary">Find Work.</span>
-            <br />
-            <span className="text-secondary">Hire Locally.</span>
+          <h1 className="mt-6 whitespace-nowrap text-[clamp(1.5rem,4vw,2.75rem)] font-extrabold leading-[1.05] tracking-tight text-foreground">
+            <span className="text-primary">Find Work</span>
+            <span className="px-2 text-muted-foreground">|</span>
+            <span className="text-secondary">Hire Locally</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
-            connects nearby workers and employers.
+            Gionaka connects people seeking local work with nearby workers and skilled service providers, making it easier to find opportunities or hire trusted help in your area.
           </p>
 
           <div className="mt-8 flex justify-center lg:justify-start">
             <DownloadAppButton className="w-full max-w-xs sm:w-auto" />
           </div>
 
-          <div className="mt-8 flex items-center justify-center gap-3 text-sm text-muted-foreground lg:justify-start">
-            <div className="flex -space-x-2">
-              {['#06b6d4', '#f97316', '#0e7490', '#fb923c'].map((c) => (
-                <span
-                  key={c}
-                  className="h-8 w-8 rounded-full border-2 border-background"
-                  style={{ backgroundColor: c }}
-                />
-              ))}
-            </div>
-            <span className="flex items-center gap-1">
-              <Star className="h-4 w-4 fill-secondary text-secondary" />
-              <strong className="font-semibold text-foreground">4.8</strong>
-              rated by 10,000+ workers
-            </span>
-          </div>
         </div>
 
         <div className="relative flex justify-center animate-float">
           <div className="absolute inset-0 -z-10 mx-auto h-[85%] w-[85%] translate-y-6 rounded-[3rem] bg-linear-to-b from-accent to-transparent" />
-          <PhoneMockup
-            src="/app-home-screen.png"
-            alt="Gionaka app home screen showing Find Work and Hire Worker options with nearby workers"
-            priority
-          />
+          <div className="relative aspect-[4/3] w-full max-w-xl overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10">
+            <Image
+              src="/local-hiring-success.png"
+              alt="A happy local customer watches a skilled worker complete a service job"
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+          </div>
         </div>
       </div>
     </section>
