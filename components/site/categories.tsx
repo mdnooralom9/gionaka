@@ -1,3 +1,5 @@
+"use client"
+
 import { 
   Zap, 
   Wrench, 
@@ -26,7 +28,9 @@ import {
   type LucideIcon, 
 } from "lucide-react"; 
  
-import { SectionHeading } from "./section-heading"; 
+import { useEffect, useRef, useState } from "react"
+import { SectionHeading } from "./section-heading"
+
  
 type Category = { 
   label: string; 
@@ -193,13 +197,78 @@ const categories: Category[] = [
 ]; 
  
 export function Categories() {
+  const scrollerRef = useRef<HTMLDivElement>(null)
+  const isAutoScrolling = useRef(false)
+  const [isInteracting, setIsInteracting] = useState(false)
+  const interactionTimeout = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  useEffect(() => {
+    let frame = 0
+    let lastTime = performance.now()
+
+    const tick = (time: number) => {
+      const scroller = scrollerRef.current
+      const delta = time - lastTime
+      lastTime = time
+
+      if (scroller && !isInteracting && !document.hidden) {
+        isAutoScrolling.current = true
+        scroller.scrollLeft += delta * 0.035
+        isAutoScrolling.current = false
+        const loopPoint = scroller.scrollWidth / 2
+        if (scroller.scrollLeft >= loopPoint) scroller.scrollLeft -= loopPoint
+      }
+      frame = requestAnimationFrame(tick)
+    }
+
+    frame = requestAnimationFrame(tick)
+    return () => cancelAnimationFrame(frame)
+  }, [isInteracting])
+
+  const pauseForInteraction = () => {
+    setIsInteracting(true)
+    if (interactionTimeout.current) clearTimeout(interactionTimeout.current)
+  }
+
+  const resumeAfterInteraction = () => {
+    if (interactionTimeout.current) clearTimeout(interactionTimeout.current)
+    interactionTimeout.current = setTimeout(() => setIsInteracting(false), 900)
+  }
+
   return (
-    <section id="categories" className="mx-auto max-w-4xl px-4 py-12 sm:px-6 md:py-16">
-      <SectionHeading
-        eyebrow="Local categories"
-        title="Find Local Work. Hire Local Workers."
-        description="Gionaka helps people discover nearby work opportunities and connect directly with local workers for everyday services and skilled jobs. From electricians, plumbers, and carpenters to painters, drivers, and repair specialists, find the right local connection in your area."
-      />
+    <section id="categories" className="overflow-hidden py-8 sm:py-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+        <SectionHeading
+          eyebrow="Local categories"
+          title="Find Local Work. Hire Local Workers."
+          description="Gionaka helps people discover nearby work opportunities and connect directly with local workers for everyday services and skilled jobs."
+        />
+      </div>
+      <div
+        ref={scrollerRef}
+        className="mt-8 flex cursor-grab touch-pan-x snap-x gap-3 overflow-x-auto overscroll-x-contain px-4 pb-2 active:cursor-grabbing sm:mt-10 sm:px-6"
+        onPointerDown={pauseForInteraction}
+        onPointerUp={resumeAfterInteraction}
+        onPointerCancel={resumeAfterInteraction}
+        onPointerLeave={resumeAfterInteraction}
+        onScroll={() => {
+          if (!isAutoScrolling.current) pauseForInteraction()
+        }}
+        aria-label="Local service categories"
+      >
+        {[...categories, ...categories].map((category, index) => {
+          const Icon = category.icon
+          return (
+            <article
+              key={`${category.label}-${index}`}
+              className="flex h-16 min-w-44 shrink-0 snap-start items-center gap-3 rounded-xl border border-border bg-card px-4 shadow-sm"
+            >
+              <Icon className="size-5 shrink-0 text-primary" aria-hidden="true" />
+              <h3 className="whitespace-nowrap text-sm font-semibold text-foreground">{category.label}</h3>
+            </article>
+          )
+        })}
+      </div>
     </section>
   )
 } 

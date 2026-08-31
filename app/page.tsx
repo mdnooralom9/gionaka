@@ -15,10 +15,10 @@ export default function Page() {
       <Navbar />
       <main>
         <Hero />
+        <Categories />
         <Stats />
         <Features />
         <HowItWorks />
-        <Categories />
         <WhyChoose />
         <Faq />
       </main>

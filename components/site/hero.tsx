@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { BriefcaseBusiness, Handshake, MapPin, Sparkles, Tv } from 'lucide-react'
+import { BriefcaseBusiness, Handshake, MapPin, Sparkles } from 'lucide-react'
 import { DownloadAppButton } from './store-buttons'
 
 export function Hero() {
@@ -37,12 +37,8 @@ export function Hero() {
           ))}
         </div>
 
-        <div className="relative order-4 flex w-full justify-center animate-float lg:col-start-2 lg:row-span-4 lg:row-start-1">
-          <div className="relative aspect-[4/3] w-full max-w-xl overflow-visible rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10">
-            <div className="absolute -top-4 left-4 z-10 inline-flex items-center gap-2 rounded-xl border border-border bg-card/95 px-3 py-2 text-sm font-semibold text-foreground shadow-lg backdrop-blur sm:-top-5 sm:left-6">
-              <Tv className="size-4 text-primary" aria-hidden="true" />
-              <span>Appliance Repair</span>
-            </div>
+        <div className="relative order-4 flex w-full justify-center lg:col-start-2 lg:row-span-4 lg:row-start-1">
+          <div className="relative aspect-[4/3] w-full max-w-xl overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10">
             <div className="absolute inset-0 overflow-hidden rounded-[2rem]">
               <Image
               src="/local-hiring-success.png"
