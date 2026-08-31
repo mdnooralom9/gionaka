@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { BriefcaseBusiness, Handshake, MapPin, Sparkles } from 'lucide-react'
 import { DownloadAppButton } from './store-buttons'
 
 export function Hero() {
@@ -24,7 +25,24 @@ export function Hero() {
           <span className="text-secondary">Hire Locally</span>
         </h1>
 
-        <div className="relative order-3 flex w-full justify-center animate-float lg:col-start-2 lg:row-span-3 lg:row-start-1">
+        <div className="order-3 flex w-full flex-wrap justify-center gap-3 lg:col-start-1 lg:row-start-3 lg:justify-start">
+          {[
+            { label: 'Find Work Easily', icon: BriefcaseBusiness },
+            { label: 'Hire Locally', icon: MapPin },
+            { label: 'Connect Directly', icon: Handshake },
+            { label: 'Always Free', icon: Sparkles },
+          ].map(({ label, icon: Icon }) => (
+            <span
+              key={label}
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground shadow-sm"
+            >
+              <Icon className="size-4 text-primary" aria-hidden="true" />
+              {label}
+            </span>
+          ))}
+        </div>
+
+        <div className="relative order-4 flex w-full justify-center animate-float lg:col-start-2 lg:row-span-4 lg:row-start-1">
           <div className="absolute inset-0 -z-10 mx-auto h-[85%] w-[85%] translate-y-6 rounded-[3rem] bg-linear-to-b from-accent to-transparent" />
           <div className="relative aspect-[4/3] w-full max-w-xl overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10">
             <Image
@@ -38,7 +56,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="order-4 flex justify-center lg:col-start-1 lg:row-start-3 lg:justify-start">
+        <div className="order-5 flex justify-center lg:col-start-1 lg:row-start-4 lg:justify-start">
           <DownloadAppButton className="w-full max-w-xs sm:w-auto" />
         </div>
       </div>
