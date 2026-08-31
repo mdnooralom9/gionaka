@@ -174,15 +174,6 @@
   }
 }
 
-@keyframes category-marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-50% - 0.625rem));
-  }
-}
-
 @keyframes float {
   0%,
   100% {
@@ -235,8 +226,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .animate-float,
-  .animate-blob,
-  [style*="category-marquee"] {
+  .animate-blob {
     animation: none !important;
   }
   .reveal {

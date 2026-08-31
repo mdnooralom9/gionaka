@@ -1,7 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
 import { 
   Zap, 
   Wrench, 
@@ -31,7 +27,6 @@ import {
 } from "lucide-react"; 
  
 import { SectionHeading } from "./section-heading"; 
-import { Reveal } from "./reveal"; 
  
 type Category = { 
   label: string; 
@@ -198,61 +193,13 @@ const categories: Category[] = [
 ]; 
  
 export function Categories() {
-  const [isPaused, setIsPaused] = useState(false)
-
-  useEffect(() => {
-    const handleVisibility = () => setIsPaused(document.hidden)
-    document.addEventListener("visibilitychange", handleVisibility)
-    return () => document.removeEventListener("visibilitychange", handleVisibility)
-  }, [])
-
-  const loopedCategories = [...categories, ...categories]
-
   return (
-    <section id="categories" className="mx-auto max-w-7xl overflow-hidden px-4 py-20 sm:px-6 md:py-28">
+    <section id="categories" className="mx-auto max-w-4xl px-4 py-12 sm:px-6 md:py-16">
       <SectionHeading
-        eyebrow="Categories"
-        title="Find Local Services Across Multiple Categories"
-        description="Browse skilled local professionals across popular service categories. Whether you're looking for work or hiring nearby workers, Gionaka helps you connect quickly."
+        eyebrow="Local categories"
+        title="Find Local Work. Hire Local Workers."
+        description="Gionaka helps people discover nearby work opportunities and connect directly with local workers for everyday services and skilled jobs. From electricians, plumbers, and carpenters to painters, drivers, and repair specialists, find the right local connection in your area."
       />
-
-      <div
-        className="relative mt-14 overflow-hidden"
-        onMouseEnter={() => setIsPaused(true)}
-        onMouseLeave={() => setIsPaused(false)}
-        onFocus={() => setIsPaused(true)}
-        onBlur={() => setIsPaused(false)}
-        onTouchStart={() => setIsPaused(true)}
-        onTouchEnd={() => setIsPaused(false)}
-      >
-        <div
-          className="flex w-max gap-5"
-          style={{ animation: `category-marquee 90s linear infinite ${isPaused ? "paused" : "running"}` }}
-        >
-          {loopedCategories.map((category, index) => {
-            const Icon = category.icon
-            return (
-              <Reveal key={`${category.label}-${index}`} delay={0} className="group w-[18rem] shrink-0 sm:w-[20rem]">
-                <article className="flex min-h-26 items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/10">
-                  <div className="flex size-14 shrink-0 items-center justify-center rounded-xl bg-accent text-primary transition-all duration-300 group-hover:bg-primary group-hover:text-primary-foreground">
-                    <Icon className="size-7" strokeWidth={2} />
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <h3 className="text-base font-semibold leading-tight text-foreground transition-colors duration-300 group-hover:text-primary">{category.label}</h3>
-                    <p className="mt-1 text-sm leading-6 text-muted-foreground">{category.description}</p>
-                  </div>
-                </article>
-              </Reveal>
-            )
-          })}
-        </div>
-      </div>
-
-      <div className="mt-12 text-center">
-        <p className="mx-auto max-w-3xl text-sm leading-7 text-muted-foreground">
-          Gionaka helps people find local workers and local jobs across multiple service categories including electricians, plumbers, carpenters, painters, drivers, mechanics, construction workers, cleaners, delivery partners and many more. Connect directly with nearby professionals without middlemen.
-        </p>
-      </div>
     </section>
   )
 } 
