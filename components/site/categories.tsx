@@ -196,7 +196,6 @@ const categories: Category[] = [
  
 export function CategoryCarousel() {
   const scrollerRef = useRef<HTMLDivElement>(null)
-  const isAutoScrolling = useRef(false)
   const [isInteracting, setIsInteracting] = useState(false)
   const interactionTimeout = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -210,17 +209,18 @@ export function CategoryCarousel() {
       lastTime = time
 
       if (scroller && !isInteracting && !document.hidden) {
-        isAutoScrolling.current = true
         scroller.scrollLeft += delta * 0.035
-        isAutoScrolling.current = false
-        const loopPoint = scroller.scrollWidth / 2
+        const loopPoint = (scroller.scrollWidth - scroller.clientWidth) / 2
         if (scroller.scrollLeft >= loopPoint) scroller.scrollLeft -= loopPoint
       }
       frame = requestAnimationFrame(tick)
     }
 
     frame = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(frame)
+    return () => {
+      cancelAnimationFrame(frame)
+      if (interactionTimeout.current) clearTimeout(interactionTimeout.current)
+    }
   }, [isInteracting])
 
   const pauseForInteraction = () => {
@@ -236,13 +236,14 @@ export function CategoryCarousel() {
   return (
     <div
       ref={scrollerRef}
-      className="absolute inset-x-3 bottom-3 z-10 flex cursor-grab touch-pan-x snap-x gap-2 overflow-x-auto overscroll-x-contain rounded-xl bg-background/20 p-2 pb-2 backdrop-blur-[2px] active:cursor-grabbing sm:inset-x-5 sm:bottom-5 sm:gap-3 sm:p-2.5"
+      className="absolute inset-x-2 bottom-2 z-10 flex cursor-grab touch-pan-x gap-1.5 overflow-x-auto overscroll-x-contain rounded-lg bg-background/20 p-1.5 pb-1.5 backdrop-blur-[2px] active:cursor-grabbing sm:inset-x-4 sm:bottom-4 sm:gap-2 sm:p-2"
         onPointerDown={pauseForInteraction}
         onPointerUp={resumeAfterInteraction}
         onPointerCancel={resumeAfterInteraction}
         onPointerLeave={resumeAfterInteraction}
-        onScroll={() => {
-          if (!isAutoScrolling.current) pauseForInteraction()
+        onWheel={() => {
+          pauseForInteraction()
+          resumeAfterInteraction()
         }}
         aria-label="Local service categories"
       >
@@ -251,10 +252,10 @@ export function CategoryCarousel() {
           return (
             <article
               key={`${category.label}-${index}`}
-              className="flex h-16 min-w-44 shrink-0 snap-start items-center gap-3 rounded-xl border border-border bg-card px-4 shadow-sm"
+              className="flex h-10 min-w-36 shrink-0 items-center gap-2 rounded-lg border border-border bg-card px-2.5 shadow-sm sm:h-11 sm:min-w-40 sm:px-3"
             >
-              <Icon className="size-5 shrink-0 text-primary" aria-hidden="true" />
-              <h3 className="whitespace-nowrap text-sm font-semibold text-foreground">{category.label}</h3>
+              <Icon className="size-4 shrink-0 text-primary" aria-hidden="true" />
+              <h3 className="whitespace-nowrap text-xs font-semibold text-foreground sm:text-sm">{category.label}</h3>
             </article>
           )
         })}
