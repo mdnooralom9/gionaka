@@ -29,8 +29,6 @@ import {
 } from "lucide-react"; 
  
 import { useEffect, useRef, useState } from "react"
-import { SectionHeading } from "./section-heading"
-
  
 type Category = { 
   label: string; 
@@ -196,7 +194,7 @@ const categories: Category[] = [
   }, 
 ]; 
  
-export function Categories() {
+export function CategoryCarousel() {
   const scrollerRef = useRef<HTMLDivElement>(null)
   const isAutoScrolling = useRef(false)
   const [isInteracting, setIsInteracting] = useState(false)
@@ -236,17 +234,9 @@ export function Categories() {
   }
 
   return (
-    <section id="categories" className="overflow-hidden py-8 sm:py-10">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <SectionHeading
-          eyebrow="Local categories"
-          title="Find Local Work. Hire Local Workers."
-          description="Gionaka helps people discover nearby work opportunities and connect directly with local workers for everyday services and skilled jobs."
-        />
-      </div>
-      <div
-        ref={scrollerRef}
-        className="mt-8 flex cursor-grab touch-pan-x snap-x gap-3 overflow-x-auto overscroll-x-contain px-4 pb-2 active:cursor-grabbing sm:mt-10 sm:px-6"
+    <div
+      ref={scrollerRef}
+      className="absolute inset-x-3 bottom-3 z-10 flex cursor-grab touch-pan-x snap-x gap-2 overflow-x-auto overscroll-x-contain rounded-xl bg-background/20 p-2 pb-2 backdrop-blur-[2px] active:cursor-grabbing sm:inset-x-5 sm:bottom-5 sm:gap-3 sm:p-2.5"
         onPointerDown={pauseForInteraction}
         onPointerUp={resumeAfterInteraction}
         onPointerCancel={resumeAfterInteraction}
@@ -269,6 +259,5 @@ export function Categories() {
           )
         })}
       </div>
-    </section>
   )
 } 

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { BriefcaseBusiness, Handshake, MapPin, Sparkles } from 'lucide-react'
 import { DownloadAppButton } from './store-buttons'
+import { CategoryCarousel } from './categories'
 
 export function Hero() {
   return (
@@ -41,13 +42,14 @@ export function Hero() {
           <div className="relative aspect-[4/3] w-full max-w-xl overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10">
             <div className="absolute inset-0 overflow-hidden rounded-[2rem]">
               <Image
-              src="/local-hiring-success.png"
+                src="/local-hiring-success.png"
               alt="A happy local customer watches a skilled worker complete a service job"
               fill
               priority
               className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
+              <CategoryCarousel />
             </div>
           </div>
         </div>
