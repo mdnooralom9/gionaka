@@ -252,7 +252,7 @@ export function CategoryCarousel() {
           return (
             <article
               key={`${category.label}-${index}`}
-              className="flex h-10 min-w-36 shrink-0 items-center gap-2 rounded-lg border border-border bg-card px-2.5 shadow-sm sm:h-11 sm:min-w-40 sm:px-3"
+              className="flex h-10 w-max shrink-0 items-center gap-2 rounded-lg border border-border bg-card px-2.5 shadow-sm sm:h-11 sm:px-3"
             >
               <Icon className="size-4 shrink-0 text-primary" aria-hidden="true" />
               <h3 className="whitespace-nowrap text-xs font-semibold text-foreground sm:text-sm">{category.label}</h3>
