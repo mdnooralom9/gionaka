@@ -236,7 +236,7 @@ export function CategoryCarousel() {
   return (
     <div
       ref={scrollerRef}
-      className="absolute inset-x-2 bottom-2 z-10 flex cursor-grab touch-pan-x gap-1.5 overflow-x-auto overscroll-x-contain rounded-lg bg-background/20 p-1.5 pb-1.5 backdrop-blur-[2px] active:cursor-grabbing sm:inset-x-4 sm:bottom-4 sm:gap-2 sm:p-2"
+      className="scrollbar-none absolute inset-x-2 bottom-2 z-10 flex cursor-grab touch-pan-x gap-1.5 overflow-x-auto overscroll-x-contain rounded-lg bg-background/20 p-1.5 pb-1.5 backdrop-blur-[2px] active:cursor-grabbing sm:inset-x-4 sm:bottom-4 sm:gap-2 sm:p-2"
         onPointerDown={pauseForInteraction}
         onPointerUp={resumeAfterInteraction}
         onPointerCancel={resumeAfterInteraction}
