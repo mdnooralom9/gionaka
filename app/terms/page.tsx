@@ -218,6 +218,7 @@ const sections = [
   "17. Limitation of Liability",
   [
     "To the maximum extent permitted by applicable law, Gionaka will not be responsible for losses, damages, or claims arising from:",
+    "Nothing in these Terms excludes or limits any liability that cannot lawfully be excluded or limited under applicable law.",
   ],
   [
     "Communications or interactions between users.",

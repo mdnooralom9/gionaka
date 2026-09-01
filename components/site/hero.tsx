@@ -1,65 +1,61 @@
-import { MapPin, Star } from 'lucide-react'
-import { PhoneMockup } from './phone-mockup'
+import Image from 'next/image'
+import { BriefcaseBusiness, Handshake, MapPin, Sparkles } from 'lucide-react'
 import { DownloadAppButton } from './store-buttons'
+import { CategoryCarousel } from './categories'
 
 export function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden pt-28 pb-16 sm:pt-32 md:pb-24"
+      className="relative overflow-hidden bg-linear-to-b from-primary/8 via-primary/3 to-background pt-28 pb-16 sm:pt-32 md:pb-24"
     >
-      {/* soft background accents */}
-      <div className="pointer-events-none absolute inset-0 -z-10" aria-hidden="true">
-        <div className="absolute -left-24 top-10 h-72 w-72 rounded-full bg-primary/10 blur-3xl animate-blob" />
-        <div className="absolute right-0 top-40 h-80 w-80 rounded-full bg-secondary/10 blur-3xl animate-blob [animation-delay:3s]" />
-      </div>
 
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2">
-        <div className="text-center lg:text-left">
-          <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-accent px-4 py-1.5 text-sm font-medium text-accent-foreground">
-            <MapPin className="h-4 w-4" />
-            India’s Digital Labour Chowk
-          </span>
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 sm:gap-6 sm:px-6 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12">
+        <p className="order-1 mx-auto max-w-xl text-center text-pretty text-lg leading-relaxed text-muted-foreground lg:col-start-1 lg:row-start-2 lg:mx-0 lg:text-left">
+          Gionaka connects you with local jobs, skilled workers, and trusted service providers near you.
+        </p>
 
-          <h1 className="mt-6 text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
-            <span className="text-primary">Find Work.</span>
-            <br />
-            <span className="text-secondary">Hire Local.</span>
-          </h1>
+        <h1 className="order-2 whitespace-nowrap text-center text-[clamp(1.5rem,4vw,2.75rem)] font-extrabold leading-[1.05] tracking-tight text-foreground lg:col-start-1 lg:row-start-1 lg:text-left">
+          <span className="text-primary">Find Work</span>
+          <span className="px-2 text-muted-foreground">|</span>
+          <span className="text-secondary">Hire Locally</span>
+        </h1>
 
-          <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground lg:mx-0">
-            connects nearby workers and employers.
-          </p>
-
-          <div className="mt-8 flex justify-center lg:justify-start">
-            <DownloadAppButton className="w-full max-w-xs sm:w-auto" />
-          </div>
-
-          <div className="mt-8 flex items-center justify-center gap-3 text-sm text-muted-foreground lg:justify-start">
-            <div className="flex -space-x-2">
-              {['#06b6d4', '#f97316', '#0e7490', '#fb923c'].map((c) => (
-                <span
-                  key={c}
-                  className="h-8 w-8 rounded-full border-2 border-background"
-                  style={{ backgroundColor: c }}
-                />
-              ))}
-            </div>
-            <span className="flex items-center gap-1">
-              <Star className="h-4 w-4 fill-secondary text-secondary" />
-              <strong className="font-semibold text-foreground">4.8</strong>
-              rated by 10,000+ workers
+        <div className="order-3 grid w-full max-w-sm grid-cols-2 gap-2 sm:flex sm:max-w-none sm:flex-wrap sm:justify-center sm:gap-3 lg:col-start-1 lg:row-start-3 lg:justify-start">
+          {[
+            { label: 'Find Work Easily', icon: BriefcaseBusiness },
+            { label: 'Hire Locally', icon: MapPin },
+            { label: 'Connect Directly', icon: Handshake },
+            { label: 'Always Free', icon: Sparkles },
+          ].map(({ label, icon: Icon }) => (
+            <span
+              key={label}
+              className="inline-flex min-h-10 items-center justify-center gap-1.5 rounded-full border border-border bg-card px-2.5 py-2 text-xs font-medium text-foreground shadow-sm sm:gap-2 sm:px-4 sm:text-sm"
+            >
+              <Icon className="size-4 text-primary" aria-hidden="true" />
+              {label}
             </span>
+          ))}
+        </div>
+
+        <div className="relative order-4 flex w-full justify-center lg:col-start-2 lg:row-span-4 lg:row-start-1">
+          <div className="relative aspect-[4/3] w-full max-w-xl overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-primary/10">
+            <div className="absolute inset-0 overflow-hidden rounded-[2rem]">
+              <Image
+                src="/local-hiring-success.png"
+              alt="A happy local customer watches a skilled worker complete a service job"
+              fill
+              priority
+              className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <CategoryCarousel />
+            </div>
           </div>
         </div>
 
-        <div className="relative flex justify-center animate-float">
-          <div className="absolute inset-0 -z-10 mx-auto h-[85%] w-[85%] translate-y-6 rounded-[3rem] bg-linear-to-b from-accent to-transparent" />
-          <PhoneMockup
-            src="/app-home-screen.png"
-            alt="Gionaka app home screen showing Find Work and Hire Worker options with nearby workers"
-            priority
-          />
+        <div className="order-5 flex justify-center lg:col-start-1 lg:row-start-4 lg:justify-start">
+          <DownloadAppButton className="w-full max-w-xs sm:w-auto" />
         </div>
       </div>
     </section>

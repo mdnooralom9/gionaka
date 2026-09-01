@@ -6,7 +6,6 @@ import {
   Shield,
   Check,
 } from "lucide-react";
-import { PhoneMockup } from "./phone-mockup";
 import { Reveal } from "./reveal";
 
 const reasons = [
@@ -54,7 +53,7 @@ export function WhyChoose() {
       id="why-gionaka"
       className="bg-muted/40 py-20 md:py-28"
     >
-      <div className="mx-auto grid max-w-6xl items-center gap-16 px-4 sm:px-6 lg:grid-cols-2">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6">
         {/* Left Content */}
         <div>
           <Reveal>
@@ -107,18 +106,6 @@ export function WhyChoose() {
           </ul>
         </div>
 
-        {/* Right Image */}
-        <Reveal
-          className="relative flex justify-center"
-          delay={150}
-        >
-          <div className="absolute inset-0 -z-10 mx-auto h-[82%] w-[82%] translate-y-8 rounded-[3rem] bg-linear-to-b from-secondary/15 to-transparent" />
-
-          <PhoneMockup
-            src="/app-results-screen.png"
-            alt="Gionaka app displaying nearby local professionals with direct call options"
-          />
-        </Reveal>
       </div>
     </section>
   );

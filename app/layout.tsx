@@ -14,7 +14,7 @@ const SITE_URL = 'https://gionaka.com'
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Gionaka — India’s Digital Labour Chowk | Find Work & Hire Local',
+    default: 'Gionaka — The Digital Labour Chowk | Find Work & Hire Local',
     template: '%s | Gionaka',
   },
   description:
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: SITE_URL,
     siteName: 'Gionaka',
-    title: 'Gionaka — India’s Digital Labour Chowk',
+    title: 'Gionaka — The Digital Labour Chowk',
     description:
       'Connecting nearby workers and employers with a fast, location-based platform. Find work or hire local workers in minutes.',
     images: [
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gionaka — India’s Digital Labour Chowk',
+    title: 'Gionaka — The Digital Labour Chowk',
     description:
       'Find work or hire local workers nearby. India’s Digital Labour Chowk, now in your pocket.',
     images: ['/og-image.png'],

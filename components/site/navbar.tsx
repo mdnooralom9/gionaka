@@ -32,14 +32,19 @@ export function Navbar() {
           : 'bg-transparent',
       )}
     ><nav className="mx-auto flex h-20 max-w-6xl items-center justify-between px-4 sm:px-6">
-         <Image
-  src="/gionaka-logo.png"
-  alt="Gionaka"
-  width={170}
-  height={75}
-  className="h-12 w-auto"
-  priority
-/>
+         <div className="flex flex-col items-start gap-0.5 sm:flex-row sm:items-center sm:gap-3">
+          <Image
+            src="/gionaka-logo.png"
+            alt="Gionaka"
+            width={170}
+            height={75}
+            className="h-12 w-auto"
+            priority
+          />
+          <span className="text-xs font-medium tracking-wide text-muted-foreground sm:text-sm">
+            The Digital Labour Chowk
+          </span>
+        </div>
         <div className="hidden items-center gap-8 md:flex">
           {links.map((link) => (
             <a
