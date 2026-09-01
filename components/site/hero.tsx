@@ -12,7 +12,7 @@ export function Hero() {
 
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 sm:gap-6 sm:px-6 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12">
         <p className="order-1 mx-auto max-w-xl text-center text-pretty text-lg leading-relaxed text-muted-foreground lg:col-start-1 lg:row-start-2 lg:mx-0 lg:text-left">
-          Gionaka connects people seeking local work with nearby workers and skilled service providers, making it easier to find opportunities or hire trusted help in your area.
+          Gionaka connects you with local jobs, skilled workers, and trusted service providers near you.
         </p>
 
         <h1 className="order-2 whitespace-nowrap text-center text-[clamp(1.5rem,4vw,2.75rem)] font-extrabold leading-[1.05] tracking-tight text-foreground lg:col-start-1 lg:row-start-1 lg:text-left">
