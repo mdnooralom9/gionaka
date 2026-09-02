@@ -14,7 +14,7 @@ const SITE_URL = 'https://gionaka.com'
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Gionaka — The Digital Labour Chowk | Find Work & Hire Local',
+    default: 'Gionaka — The Digital Labour Chowk | Find Work & Hire Locall',
     template: '%s | Gionaka',
   },
   description:
