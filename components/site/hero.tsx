@@ -26,6 +26,7 @@ export function Hero() {
             { label: 'Find Work Easily', icon: BriefcaseBusiness },
             { label: 'Hire Locally', icon: MapPin },
             { label: 'Connect Directly', icon: Handshake },
+            { label: 'Use Freely', icon: Sparkles },
           ].map(({ label, icon: Icon }) => (
             <span
               key={label}
