@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { BriefcaseBusiness, Handshake, MapPin } from 'lucide-react'
+import { BriefcaseBusiness, Handshake, MapPin, Sparkles } from 'lucide-react'
 import { DownloadAppButton } from './store-buttons'
 import { CategoryCarousel } from './categories'
 
@@ -26,6 +26,7 @@ export function Hero() {
             { label: 'Find Work Easily', icon: BriefcaseBusiness },
             { label: 'Hire Locally', icon: MapPin },
             { label: 'Connect Directly', icon: Handshake },
+            { label: 'Use Freely', icon: Sparkles },
           ].map(({ label, icon: Icon }) => (
             <span
               key={label}
