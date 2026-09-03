@@ -64,14 +64,14 @@ const features: Feature[] = [
 
 export function Features() {
   return (
-    <section id="features" className="mx-auto max-w-6xl px-4 py-20 sm:px-6 md:py-28">
+    <section id="features" className="mx-auto max-w-6xl px-4 py-12 sm:px-6 md:py-16">
       <SectionHeading
         eyebrow="Features"
         title="Everything You Need to Find Work or Hire Locally"
         description="Gionaka makes it easy to find work, hire local professionals, connect nearby, and communicate directly—all in one simple platform."
       />
 
-      <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {features.map((feature, i) => {
           const Icon = feature.icon
           const isCyan = feature.accent === 'cyan'

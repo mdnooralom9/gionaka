@@ -42,7 +42,7 @@ export function Faq() {
   return (
     <section
       id="faq"
-      className="mx-auto max-w-4xl px-4 py-20 sm:px-6 md:py-28"
+      className="mx-auto max-w-4xl px-4 py-12 sm:px-6 md:py-16"
     >
       <script
         type="application/ld+json"
@@ -57,7 +57,7 @@ export function Faq() {
         description="Learn how Gionaka helps people find work, hire local professionals, and connect nearby through a simple location-based platform."
       />
 
-      <Reveal className="mt-12 overflow-hidden rounded-3xl border border-border bg-card shadow-sm">
+      <Reveal className="mt-8 overflow-hidden rounded-3xl border border-border bg-card shadow-sm">
 
         <div className="divide-y divide-border">
           {homeFaqs.map((faq, index) => {

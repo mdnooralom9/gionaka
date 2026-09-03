@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden bg-linear-to-b from-primary/8 via-primary/3 to-background pt-28 pb-16 sm:pt-32 md:pb-24"
+      className="relative overflow-hidden bg-linear-to-b from-primary/8 via-primary/3 to-background pt-24 pb-12 sm:pt-28 md:pb-16"
     >
 
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 sm:gap-6 sm:px-6 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12">

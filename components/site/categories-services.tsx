@@ -31,7 +31,7 @@ const benefits = [
 
 export function CategoriesServices() {
   return (
-    <section id="categories-services" className="bg-muted/40 py-20 md:py-28">
+    <section id="categories-services" className="bg-muted/40 py-12 md:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Categories & Services"
@@ -39,7 +39,7 @@ export function CategoriesServices() {
           description="Gionaka gives you access to a wide range of local work and service categories, with relevant sub-categories to help you find exactly what you need. Choose your requirement, explore suitable options, and connect with nearby workers or service providers."
         />
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {benefits.map((benefit, index) => {
             const Icon = benefit.icon
             return (

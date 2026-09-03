@@ -44,7 +44,7 @@ export function WhyChoose() {
   return (
     <section
       id="why-gionaka"
-      className="bg-muted/40 py-20 md:py-28"
+      className="bg-muted/40 py-12 md:py-16"
     >
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         {/* Left Content */}
@@ -64,7 +64,7 @@ export function WhyChoose() {
             </p>
           </Reveal>
 
-          <ul className="mt-10 space-y-6">
+          <ul className="mt-8 space-y-5">
             {reasons.map((reason, index) => {
               const Icon = reason.icon;
 
