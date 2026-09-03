@@ -2,7 +2,6 @@ import {
   MapPin,
   PhoneCall,
   LayoutGrid,
-  Flag,
   Shield,
   Check,
 } from "lucide-react";
@@ -32,12 +31,6 @@ const reasons = [
     title: "Phone Number Sign-In",
     description:
       "Sign in securely using your phone number with a fast and hassle-free verification process.",
-  },
-  {
-    icon: Flag,
-    title: "Built for India",
-    description:
-      "Designed for India's local workforce and everyday service needs across cities, towns, and villages.",
   },
   {
     icon: Check,
