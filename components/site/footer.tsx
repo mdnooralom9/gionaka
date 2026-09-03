@@ -136,7 +136,7 @@ export function Footer() {
             </p>
 
             <p className="text-sm text-muted-foreground">
-              Connecting local communities through trusted local services.
+              Connecting local communities through local services.
             </p>
 
           </div>

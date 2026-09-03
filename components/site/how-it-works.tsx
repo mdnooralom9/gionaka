@@ -27,15 +27,15 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="about" className="bg-muted/40 py-20 md:py-28">
+    <section id="about" className="bg-muted/40 py-12 md:py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="How it works"
           title="Get started in 4 simple steps"
-          description="Getting started is simple. Follow these four steps to connect locally in minutes."
+          description="Getting started is simple. Follow these four steps to connect locally."
         />
 
-        <ol className="relative mt-16 grid gap-10 md:grid-cols-4 md:gap-6">
+        <ol className="relative mt-10 grid gap-8 md:grid-cols-4 md:gap-6">
           {/* connecting line on desktop */}
           <span
             className="absolute left-0 right-0 top-8 hidden h-0.5 bg-gradient-to-r from-primary/30 via-primary/30 to-secondary/30 md:block"

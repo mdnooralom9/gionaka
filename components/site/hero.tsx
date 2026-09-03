@@ -7,12 +7,12 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden bg-linear-to-b from-primary/8 via-primary/3 to-background pt-28 pb-16 sm:pt-32 md:pb-24"
+      className="relative overflow-hidden bg-linear-to-b from-primary/8 via-primary/3 to-background pt-24 pb-12 sm:pt-28 md:pb-16"
     >
 
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 sm:gap-6 sm:px-6 lg:grid lg:grid-cols-2 lg:items-center lg:gap-12">
         <p className="order-1 mx-auto max-w-xl text-center text-pretty text-lg leading-relaxed text-muted-foreground lg:col-start-1 lg:row-start-2 lg:mx-0 lg:text-left">
-          Gionaka connects you with local jobs, skilled workers, and trusted service providers near you.
+          Gionaka connects you with local jobs, skilled workers, and local service providers near you.
         </p>
 
         <h1 className="order-2 whitespace-nowrap text-center text-[clamp(1.5rem,4vw,2.75rem)] font-extrabold leading-[1.05] tracking-tight text-foreground lg:col-start-1 lg:row-start-1 lg:text-left">
@@ -26,7 +26,7 @@ export function Hero() {
             { label: 'Find Work Easily', icon: BriefcaseBusiness },
             { label: 'Hire Locally', icon: MapPin },
             { label: 'Connect Directly', icon: Handshake },
-            { label: 'Always Free', icon: Sparkles },
+            { label: 'Use Freely', icon: Sparkles },
           ].map(({ label, icon: Icon }) => (
             <span
               key={label}
