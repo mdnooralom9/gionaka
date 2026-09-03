@@ -32,7 +32,7 @@ export function HowItWorks() {
         <SectionHeading
           eyebrow="How it works"
           title="Get started in 4 simple steps"
-          description="Getting started is simple. Follow these four steps to connect locally in minutes."
+          description="Getting started is simple. Follow these four steps to connect locally."
         />
 
         <ol className="relative mt-16 grid gap-10 md:grid-cols-4 md:gap-6">

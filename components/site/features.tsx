@@ -48,16 +48,16 @@ const features: Feature[] = [
   },
   {
     icon: ShieldCheck,
-    title: 'Trusted Community',
+    title: 'Phone Authentication',
     description:
-      'Every account is verified with a phone number before getting started.',
+      'Every account is registered and authenticated using a phone number and OTP.',
     accent: 'cyan',
   },
   {
     icon: Zap,
     title: 'Fast & Simple',
     description:
-      'A simple interface built for everyone — find or hire in minutes.',
+      'A simple interface built for everyone — making it easier to find local work or connect with nearby workers and service providers.',
     accent: 'orange',
   },
 ]

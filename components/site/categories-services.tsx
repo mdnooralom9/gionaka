@@ -36,7 +36,7 @@ export function CategoriesServices() {
         <SectionHeading
           eyebrow="Categories & Services"
           title="Find the Right Local Worker for Your Needs"
-          description="Gionaka gives you access to a wide range of local work and service categories, with relevant sub-categories to help you find exactly what you need. Choose your requirement, explore suitable options, and connect with nearby workers or service providers in just a few minutes."
+          description="Gionaka gives you access to a wide range of local work and service categories, with relevant sub-categories to help you find exactly what you need. Choose your requirement, explore suitable options, and connect with nearby workers or service providers."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
